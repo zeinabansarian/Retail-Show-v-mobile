@@ -701,6 +701,10 @@ video {
   right: 0px;
 }
 
+.right-\[\.5em\] {
+  right: .5em;
+}
+
 .right-\[5\%\] {
   right: 5%;
 }
@@ -719,6 +723,10 @@ video {
 
 .top-\[\.8em\] {
   top: .8em;
+}
+
+.top-\[11em\] {
+  top: 11em;
 }
 
 .top-\[50\%\] {
@@ -825,6 +833,11 @@ video {
   margin-bottom: 1.5em;
 }
 
+.my-\[1em\] {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 .my-\[2em\] {
   margin-top: 2em;
   margin-bottom: 2em;
@@ -833,11 +846,6 @@ video {
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.my-\[1em\] {
-  margin-top: 1em;
-  margin-bottom: 1em;
 }
 
 .-mr-16 {
@@ -860,8 +868,24 @@ video {
   margin-bottom: 2rem;
 }
 
+.mb-\[\.8em\] {
+  margin-bottom: .8em;
+}
+
+.mb-\[1em\] {
+  margin-bottom: 1em;
+}
+
+.mb-\[2em\] {
+  margin-bottom: 2em;
+}
+
 .ml-\[10\%\] {
   margin-left: 10%;
+}
+
+.ml-auto {
+  margin-left: auto;
 }
 
 .mr-\[\.5em\] {
@@ -896,12 +920,32 @@ video {
   margin-top: 1.5rem;
 }
 
-.mt-\[2em\] {
-  margin-top: 2em;
+.mt-\[\.5em\] {
+  margin-top: .5em;
 }
 
 .mt-\[1em\] {
   margin-top: 1em;
+}
+
+.mt-\[2em\] {
+  margin-top: 2em;
+}
+
+.mt-\[6em\] {
+  margin-top: 6em;
+}
+
+.mt-\[7vh\] {
+  margin-top: 7vh;
+}
+
+.mt-\[8em\] {
+  margin-top: 8em;
+}
+
+.mt-auto {
+  margin-top: auto;
 }
 
 .box-border {
@@ -1031,8 +1075,16 @@ video {
   height: 2px;
 }
 
+.h-\[300px\] {
+  height: 300px;
+}
+
 .h-\[30px\] {
   height: 30px;
+}
+
+.h-\[316px\] {
+  height: 316px;
 }
 
 .h-\[40px\] {
@@ -1059,6 +1111,10 @@ video {
   height: 5px;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .h-full {
   height: 100%;
 }
@@ -1069,6 +1125,10 @@ video {
 
 .h-svh {
   height: 100svh;
+}
+
+.min-h-\[30px\] {
+  min-height: 30px;
 }
 
 .min-h-\[50px\] {
@@ -1089,6 +1149,10 @@ video {
 
 .w-\[126px\] {
   width: 126px;
+}
+
+.w-\[13\%\] {
+  width: 13%;
 }
 
 .w-\[15px\] {
@@ -1143,6 +1207,14 @@ video {
   width: 5px;
 }
 
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
 .w-\[8\%\] {
   width: 8%;
 }
@@ -1153,6 +1225,10 @@ video {
 
 .w-\[90\%\] {
   width: 90%;
+}
+
+.w-\[93\%\] {
+  width: 93%;
 }
 
 .w-\[95\%\] {
@@ -1187,10 +1263,6 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[70\%\] {
-  width: 70%;
 }
 
 .flex-shrink {
@@ -1772,8 +1844,16 @@ video {
   gap: 1.5rem;
 }
 
+.gap-\[\.5em\] {
+  gap: .5em;
+}
+
 .gap-\[1\.5em\] {
   gap: 1.5em;
+}
+
+.gap-\[1\.8em\] {
+  gap: 1.8em;
 }
 
 .gap-\[10px\] {
@@ -1782,6 +1862,10 @@ video {
 
 .gap-\[1em\] {
   gap: 1em;
+}
+
+.gap-\[3rem\] {
+  gap: 3rem;
 }
 
 .gap-\[5px\] {
@@ -2126,6 +2210,10 @@ video {
   border-radius: 50%;
 }
 
+.rounded-\[5px\] {
+  border-radius: 5px;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -2264,6 +2352,10 @@ video {
 
 .border-\[\#002c43af\] {
   border-color: #002c43af;
+}
+
+.border-\[\#ffffff90\] {
+  border-color: #ffffff90;
 }
 
 .border-darkBlue {
@@ -2519,6 +2611,11 @@ video {
   padding-right: 1em;
 }
 
+.px-\[4em\] {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
 .px-\[5\%\] {
   padding-left: 5%;
   padding-right: 5%;
@@ -2544,9 +2641,19 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.py-\[\.4em\] {
+  padding-top: .4em;
+  padding-bottom: .4em;
+}
+
 .py-\[\.5em\] {
   padding-top: .5em;
   padding-bottom: .5em;
+}
+
+.py-\[\.8em\] {
+  padding-top: .8em;
+  padding-bottom: .8em;
 }
 
 .py-\[1\.5em\] {
@@ -2590,6 +2697,10 @@ video {
 
 .pr-\[5\%\] {
   padding-right: 5%;
+}
+
+.pt-\[10em\] {
+  padding-top: 10em;
 }
 
 .pt-\[122px\] {
@@ -2842,6 +2953,10 @@ video {
   line-height: 25.04px;
 }
 
+.leading-28\.17 {
+  line-height: 28.17px;
+}
+
 .leading-\[15\.02px\] {
   line-height: 15.02px;
 }
@@ -2862,8 +2977,16 @@ video {
   line-height: 21.76px;
 }
 
+.leading-\[22\.45px\] {
+  line-height: 22.45px;
+}
+
 .leading-\[23\.48px\] {
   line-height: 23.48px;
+}
+
+.leading-\[28\.17px\] {
+  line-height: 28.17px;
 }
 
 .text-\[\#336699\]\/\[\.35\] {
@@ -3325,15 +3448,27 @@ video {
 }
 
 @font-face {
+  font-family: "TeluguMN700";
+
+  src: url("../fonts/TeluguMN-Bold-02.ttf");
+
+  font-weight: 700;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
   font-family: "IRANSansWeb400";
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Medium.eot");
+  src: url("../_fonts/IRANSansWeb(FaNum)_Medium.eot");
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix")
+  src: url("../_fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix")
       format("embedded-opentype"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Medium.woff") format("woff"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Medium.ttf") format("truetype");
+    url("../_fonts/IRANSansWeb(FaNum)_Medium.woff") format("woff"),
+    url("../_fonts/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
+    url("../_fonts/IRANSansWeb(FaNum)_Medium.ttf") format("truetype");
 
   font-weight: 400;
 
@@ -3345,13 +3480,13 @@ video {
 @font-face {
   font-family: "IRANSansWeb500";
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Medium.eot");
+  src: url("../_fonts/IRANSansWeb(FaNum)_Medium.eot");
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix")
+  src: url("../_fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix")
       format("embedded-opentype"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Medium.woff") format("woff"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Medium.ttf") format("truetype");
+    url("../_fonts/IRANSansWeb(FaNum)_Medium.woff") format("woff"),
+    url("../_fonts/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
+    url("../_fonts/IRANSansWeb(FaNum)_Medium.ttf") format("truetype");
 
   font-weight: 500;
 
@@ -3365,13 +3500,13 @@ video {
 
   font-family: "IRANSansWeb(FaNum)700";
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Bold.eot");
+  src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot");
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
+  src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
       format("embedded-opentype"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
+    url("../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
+    url("../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
+    url("../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
 
   font-weight: 700;
 
@@ -3383,13 +3518,13 @@ video {
 @font-face {
   font-family: "IRANSansWeb(FaNum)700";
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Bold.eot");
+  src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot");
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
+  src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
       format("embedded-opentype"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
+    url("../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
+    url("../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
+    url("../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
 
   font-weight: 700;
 
@@ -3405,13 +3540,13 @@ video {
 @font-face {
   font-family: "BaiJamjuree700";
 
-  src: url("../../_fonts/BaiJamjuree-Bold.eot");
+  src: url("../_fonts/BaiJamjuree-Bold.eot");
 
-  src: url("../../_fonts/BaiJamjuree-Bold.eot?#iefix")
+  src: url("../_fonts/BaiJamjuree-Bold.eot?#iefix")
       format("embedded-opentype"),
-    url("../../_fonts/BaiJamjuree-Bold.woff") format("woff"),
-    url("../../_fonts/BaiJamjuree-Bold.woff2") format("woff2"),
-    url("../../_fonts/BaiJamjuree-Bold.ttf") format("truetype");
+    url("../_fonts/BaiJamjuree-Bold.woff") format("woff"),
+    url("../_fonts/BaiJamjuree-Bold.woff2") format("woff2"),
+    url("../_fonts/BaiJamjuree-Bold.ttf") format("truetype");
 
   font-weight: 700;
 
@@ -3423,13 +3558,13 @@ video {
 @font-face {
   font-family: "Battambang700";
 
-  src: url("../../_fonts/Battambang-Bold.eot");
+  src: url("../_fonts/Battambang-Bold.eot");
 
-  src: url("../../_fonts/Battambang-Bold.eot?#iefix")
+  src: url("../_fonts/Battambang-Bold.eot?#iefix")
       format("embedded-opentype"),
-    url("../../_fonts/Battambang-Bold.woff") format("woff"),
-    url("../../_fonts/Battambang-Bold.woff2") format("woff2"),
-    url("../../_fonts/Battambang-Bold.ttf") format("truetype");
+    url("../_fonts/Battambang-Bold.woff") format("woff"),
+    url("../_fonts/Battambang-Bold.woff2") format("woff2"),
+    url("../_fonts/Battambang-Bold.ttf") format("truetype");
 
   font-weight: 700;
 
@@ -3441,13 +3576,13 @@ video {
 @font-face {
   font-family: "Anton400";
 
-  src: url("../../_fonts/AntonSC-Regular.eot");
+  src: url("../_fonts/AntonSC-Regular.eot");
 
-  src: url("../../_fonts/AntonSC-Regular.eot?#iefix")
+  src: url("../_fonts/AntonSC-Regular.eot?#iefix")
       format("embedded-opentype"),
-    url("../../_fonts/AntonSC-Regular.woff") format("woff"),
-    url("../../_fonts/AntonSC-Regular.woff2") format("woff2"),
-    url("../../_fonts/AntonSC-Regular.ttf") format("truetype");
+    url("../_fonts/AntonSC-Regular.woff") format("woff"),
+    url("../_fonts/AntonSC-Regular.woff2") format("woff2"),
+    url("../_fonts/AntonSC-Regular.ttf") format("truetype");
 
   font-weight: 400;
 
@@ -3459,13 +3594,13 @@ video {
 @font-face {
   font-family: "IRANSansWeb500";
 
-  src: url("../../_fonts/IRANSansWeb_Medium.eot");
+  src: url("../_fonts/IRANSansWeb_Medium.eot");
 
-  src: url("../../_fonts/IRANSansWeb_Medium.eot?#iefix")
+  src: url("../_fonts/IRANSansWeb_Medium.eot?#iefix")
       format("embedded-opentype"),
-    url("../../_fonts/IRANSansWeb_Medium.woff") format("woff"),
-    url("../../_fonts/IRANSansWeb_Medium.woff2") format("woff2"),
-    url("../../_fonts/IRANSansWeb_Medium.ttf") format("truetype");
+    url("../_fonts/IRANSansWeb_Medium.woff") format("woff"),
+    url("../_fonts/IRANSansWeb_Medium.woff2") format("woff2"),
+    url("../_fonts/IRANSansWeb_Medium.ttf") format("truetype");
 
   font-weight: 500;
 
@@ -3477,13 +3612,13 @@ video {
 @font-face {
   font-family: "IRANSansWeb400";
 
-  src: url("../../_fonts/IRANSansWebRegular.eot");
+  src: url("../_fonts/IRANSansWebRegular.eot");
 
-  src: url("../../_fonts/IRANSansWebRegular.eot?#iefix")
+  src: url("../_fonts/IRANSansWebRegular.eot?#iefix")
       format("embedded-opentype"),
-    url("../../_fonts/IRANSansWebRegular.woff") format("woff"),
-    url("../../_fonts/IRANSansWebRegular.woff2") format("woff2"),
-    url("../../_fonts/IRANSansWebRegular.ttf") format("truetype");
+    url("../_fonts/IRANSansWebRegular.woff") format("woff"),
+    url("../_fonts/IRANSansWebRegular.woff2") format("woff2"),
+    url("../_fonts/IRANSansWebRegular.ttf") format("truetype");
 
   font-weight: 400;
 
@@ -3495,13 +3630,31 @@ video {
 @font-face {
   font-family: "IRANSansWeb300";
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Light.eot");
+  src: url("../_fonts/IRANSansWeb(FaNum)_Light.eot");
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Light.eot?#iefix")
+  src: url("../_fonts/IRANSansWeb(FaNum)_Light.eot?#iefix")
       format("embedded-opentype"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Light.woff") format("woff"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Light.ttf") format("truetype");
+    url("../_fonts/IRANSansWeb(FaNum)_Light.woff") format("woff"),
+    url("../_fonts/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
+    url("../_fonts/IRANSansWeb(FaNum)_Light.ttf") format("truetype");
+
+  font-weight: 300;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANSansWeb200";
+
+  src: url("../_fonts/IRANSansWeb(FaNum)_Light.eot");
+
+  src: url("../_fonts/IRANSansWeb(FaNum)_Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../_fonts/IRANSansWeb(FaNum)_Light.woff") format("woff"),
+    url("../_fonts/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
+    url("../_fonts/IRANSansWeb(FaNum)_Light.ttf") format("truetype");
 
   font-weight: 300;
 
@@ -3513,13 +3666,13 @@ video {
 @font-face {
   font-family: "IRANSansWeb700";
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Bold.eot");
+  src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot");
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
+  src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
       format("embedded-opentype"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
+    url("../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
+    url("../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
+    url("../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
 
   font-weight: 700;
 
@@ -3531,13 +3684,13 @@ video {
 @font-face {
   font-family: "IRANSansWeb400";
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Medium.eot");
+  src: url("../_fonts/IRANSansWeb(FaNum)_Medium.eot");
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix")
+  src: url("../_fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix")
       format("embedded-opentype"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Medium.woff") format("woff"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Medium.ttf") format("truetype");
+    url("../_fonts/IRANSansWeb(FaNum)_Medium.woff") format("woff"),
+    url("../_fonts/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
+    url("../_fonts/IRANSansWeb(FaNum)_Medium.ttf") format("truetype");
 
   font-weight: 400;
 
@@ -3549,13 +3702,13 @@ video {
 @font-face {
   font-family: "IRANSansWeb500";
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Medium.eot");
+  src: url("../_fonts/IRANSansWeb(FaNum)_Medium.eot");
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix")
+  src: url("../_fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix")
       format("embedded-opentype"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Medium.woff") format("woff"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Medium.ttf") format("truetype");
+    url("../_fonts/IRANSansWeb(FaNum)_Medium.woff") format("woff"),
+    url("../_fonts/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
+    url("../_fonts/IRANSansWeb(FaNum)_Medium.ttf") format("truetype");
 
   font-weight: 500;
 
@@ -3569,13 +3722,13 @@ video {
 
   font-family: "IRANSansWeb(FaNum)700";
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Bold.eot");
+  src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot");
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
+  src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
       format("embedded-opentype"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
+    url("../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
+    url("../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
+    url("../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
 
   font-weight: 700;
 
@@ -3587,13 +3740,13 @@ video {
 @font-face {
   font-family: "IRANSansWeb(FaNum)700";
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Bold.eot");
+  src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot");
 
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
+  src: url("../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
       format("embedded-opentype"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
+    url("../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
+    url("../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
+    url("../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
 
   font-weight: 700;
 
@@ -3647,80 +3800,6 @@ video {
 
 .ShowMore:hover .circle {
   animation: rotateAndFade 1s forwards;
-}
-
-@font-face {
-  font-family: "IRANSansWeb400";
-
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Medium.eot");
-
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix")
-      format("embedded-opentype"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Medium.woff") format("woff"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Medium.ttf") format("truetype");
-
-  font-weight: 400;
-
-  font-style: normal;
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "IRANSansWeb500";
-
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Medium.eot");
-
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix")
-      format("embedded-opentype"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Medium.woff") format("woff"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Light.woff2") format("woff2"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Medium.ttf") format("truetype");
-
-  font-weight: 500;
-
-  font-style: normal;
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "IRANSansWeb700";
-
-  font-family: "IRANSansWeb(FaNum)700";
-
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Bold.eot");
-
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
-      format("embedded-opentype"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
-
-  font-weight: 700;
-
-  font-style: normal;
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "IRANSansWeb(FaNum)700";
-
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Bold.eot");
-
-  src: url("../../_fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix")
-      format("embedded-opentype"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.woff") format("woff"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff2"),
-    url("../../_fonts/IRANSansWeb(FaNum)_Bold.ttf") format("truetype");
-
-  font-weight: 700;
-
-  font-style: normal;
-
-  font-display: swap;
 }
 
 .faNum {
@@ -4034,6 +4113,240 @@ main.Etelaei-C .section h2,
   color: #002c43af;
 }
 
+.AboutUs-mobile .section-2 .Text  p{
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21.91px;
+  color: #000000 ;
+  font-family: "IRANSansWeb300";
+  transform: translateY(100%);
+  transition: all 700ms ease;
+}
+
+.AboutUs-mobile .section-3 .Text  p{
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21.91px;
+  color: #000000 ;
+  font-family: "IRANSansWeb300";
+  transform: translateY(100%);
+  transition: all 700ms ease;
+}
+
+.ContactUs-mobile fieldset [data-bc-section-title],
+  .ContactUs-mobile [data-bc-title-container]{
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+[data-bc-part-container], [data-bc-btn-container]{
+  width: 100% !important;
+}
+
+[data-bc-question],
+  [data-bc-answer-container],[data-bc-schema-info-part="1"] [data-bc-part-related-cell]{
+  width: 100% !important;
+  margin: 0;
+}
+
+[data-bc-section]{
+  margin: 0;
+  padding: 0;
+}
+
+[data-bc-answer-container] input[type="text"], [data-bc-answer-container] input[type="password"],
+   [data-bc-answer-container] input[type="time"],
+    [data-bc-answer-container] input[type="file"], 
+    [data-bc-answer-container] select, [data-bc-answer-container] textarea
+    {
+  width: 100% !important;
+  background-color: transparent !important;
+  border: 1px solid #D7D7D7;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 21.91px;
+  color: #194A968F !important;
+  font-family: "IRANSansWeb400" !important;
+  height: 42px ;
+  padding: 0 .5em !important;
+  resize: none !important;
+  border-radius:0 !important     ;
+  -webkit-border-radius:0 !important     ;
+  -moz-border-radius:0 !important     ;
+  -ms-border-radius:0 !important     ;
+  -o-border-radius:0 !important     ;
+}
+
+input[type="text"]:focus,
+    [data-bc-answer-container]
+     input[type="file"]:focus,
+      [data-bc-answer-container] select:focus, 
+      [data-bc-answer-container] textarea:focus{
+  border-color:transparent !important;
+  box-shadow:none;
+  outline: 0 none;
+  background-color:transparent;
+}
+
+.ContactUs-mobile [data-bc-schema-column]{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+
+.ContactUs-mobile .col,
+  .ContactUs-C .captchaBox{
+  width: 100%;
+  display: flex;
+}
+
+.ContactUs-mobile .captchaBox{
+  width: 100%;
+  border: 1px solid #D7D7D7;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.ContactUs-mobile .captchaBox input{
+  width: 100% !important;
+  background-color: transparent !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 21.91px;
+  color: #194A968F !important;
+  font-family: "IRANSansWeb400" !important;
+  height: 40px;
+  padding: 0 .5em !important;
+}
+
+.ContactUs-mobile .captchaBox input::-moz-placeholder, [data-bc-answer-container] input[type="text"]::-moz-placeholder{
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 21.91px;
+  color: #194A968F !important;
+  font-family: "IRANSansWeb400" !important;
+}
+
+.ContactUs-mobile .captchaBox input::placeholder,
+  [data-bc-answer-container] input[type="text"]::placeholder{
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 21.91px;
+  color: #194A968F !important;
+  font-family: "IRANSansWeb400" !important;
+}
+
+.ContactUs-mobile .captchaBox img {
+  height: 40px;
+}
+
+[data-bc-section]{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.ContactUs-mobile .Box{
+  margin-left: auto;
+  width: 100%;
+}
+
+.ContactUs-mobile .Form-container{
+  gap: 1em;
+}
+
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom{
+  z-index: 1 !important;
+}
+
+.main-container {
+  width: -moz-max-content;
+  width: max-content;
+  gap: .3em;
+  padding: 1.5em;
+  height: 100px;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#FEBE1B;
+  color: #fff;
+  font-size: 14px;
+  font-family: "IRANSansWeb700";
+  position: fixed;
+  left: -100vw;
+  top: 50%;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  z-index: 999;
+}
+
+.main-container span {
+  color: #000000;
+  font-size: 18px;
+  font-family: "IRANSansWeb500";
+  line-height: 28.17px;
+}
+
+.main-container.SEND {
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.ContactUs-mobile .Section-2 .Col:nth-child(1) .Answer  p{
+  color: #002B43;
+  font-size: 14px;
+  font-family: "IRANSansWeb500";
+  line-height: 21.91px;
+  font-weight: 500;
+  text-align: right;
+}
+
+.ContactUs-mobile .Section-2 h2,
+  .ContactUs-mobile .Section-2 h3,
+  .ContactUs-mobile .Section-2 h4,
+  .ContactUs-mobile .Section-2 span,
+  .ContactUs-mobile .Section-2 p{
+  transform: translateY(100%);
+  transition: all 700ms ease;
+  opacity: 0;
+}
+
+header,footer,.SearchBox-popup {
+  direction: rtl !important;
+}
+
+.ResultSearch .ItemR[hidden='true']{
+  display: none;
+}
+
+.ResultSearch .ItemR[open='true']{
+  display: flex;
+}
+
+.ResultSearch .ItemR{
+  display: none;
+}
+
+.loaded .Nores[hidden=""]{
+  display: none;
+}
+
+.loaded .Nores[hidden='false']{
+  display: flex;
+}
+
+mark {
+  background: #194a9652 !important
+}
+
 @media (min-width: 480px) {
   .sm\:container {
     width: 100%;
@@ -4103,6 +4416,16 @@ main.Etelaei-C .section h2,
   position: absolute;
 }
 
+.before\:bottom-0::before {
+  content: var(--tw-content);
+  bottom: 0px;
+}
+
+.before\:left-0::before {
+  content: var(--tw-content);
+  left: 0px;
+}
+
 .before\:right-0::before {
   content: var(--tw-content);
   right: 0px;
@@ -4113,9 +4436,20 @@ main.Etelaei-C .section h2,
   top: 0px;
 }
 
+.before\:top-\[3em\]::before {
+  content: var(--tw-content);
+  top: 3em;
+}
+
 .before\:z-\[-1\]::before {
   content: var(--tw-content);
   z-index: -1;
+}
+
+.before\:my-auto::before {
+  content: var(--tw-content);
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .before\:block::before {
@@ -4128,9 +4462,19 @@ main.Etelaei-C .section h2,
   display: inline-block;
 }
 
+.before\:h-\[1px\]::before {
+  content: var(--tw-content);
+  height: 1px;
+}
+
 .before\:h-\[50px\]::before {
   content: var(--tw-content);
   height: 50px;
+}
+
+.before\:h-\[80\%\]::before {
+  content: var(--tw-content);
+  height: 80%;
 }
 
 .before\:h-\[80px\]::before {
@@ -4166,6 +4510,11 @@ main.Etelaei-C .section h2,
 .before\:w-\[80px\]::before {
   content: var(--tw-content);
   width: 80px;
+}
+
+.before\:w-full::before {
+  content: var(--tw-content);
+  width: 100%;
 }
 
 .before\:origin-left::before {
@@ -4205,6 +4554,12 @@ main.Etelaei-C .section h2,
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(0 43 67 / var(--tw-bg-opacity));
+}
+
+.before\:bg-mainBlue::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(25 74 150 / var(--tw-bg-opacity));
 }
 
 .before\:bg-white::before {
@@ -4307,6 +4662,11 @@ main.Etelaei-C .section h2,
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:text-yallow:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 203 5 / var(--tw-text-opacity));
+}
+
 .before\:hover\:text-center:hover::before {
   content: var(--tw-content);
   text-align: center;
@@ -4351,6 +4711,25 @@ main.Etelaei-C .section h2,
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.group\/header.goTop .group-\[\&\.goTop\]\/header\:translate-y-\[-100\%\] {
+  --tw-translate-y: -100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group\/header.goTop .group-\[\&\.goTop\]\/header\:translate-y-\[-29\%\] {
+  --tw-translate-y: -29%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group\/header.goTop .group-\[\&\.goTop\]\/header\:\!bg-mainBlue {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(25 74 150 / var(--tw-bg-opacity)) !important;
+}
+
+.group\/header.light .group-\[\&\.light\]\/header\:bg-\[transparent\] {
+  background-color: transparent;
+}
+
 @media (min-width: 480px) {
   .sm\:underline {
     text-decoration-line: underline;
@@ -4377,6 +4756,10 @@ main.Etelaei-C .section h2,
   background-color: rgb(25 74 150 / var(--tw-bg-opacity));
 }
 
+.\[\&\.goDown\]\:top-\[-100vh\].goDown {
+  top: -100vh;
+}
+
 .\[\&\.goDown\]\:translate-y-\[-100\%\].goDown {
   --tw-translate-y: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -4389,3 +4772,8 @@ main.Etelaei-C .section h2,
 .\[\&\.hide\]\:opacity-0.hide {
   opacity: 0;
 }
+
+.\[\&\.show\]\:flex.show {
+  display: flex;
+}
+  
