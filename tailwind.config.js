@@ -34,8 +34,8 @@ module.exports = {
       'darkBlue':'#002B43',
       'mainBlue':'#194A96',
       'yallow':'#FFCB05',
-      'pink':'#ED2289'
-        
+      'pink':'#ED2289',
+        'gray3':'#828282'
     },
     fontFamily: {
       'IRANSansWeb(FaNum)700': ['IRANSansWeb(FaNum)700', 'IRANSansWeb(FaNum)700'],
