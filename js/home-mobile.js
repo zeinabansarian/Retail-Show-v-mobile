@@ -126,16 +126,21 @@ scrollTop.forEach(element => {
 const lastCourse = new Swiper('.lastCourse', {
     // Optional parameters
    speed:1000,
-   spaceBetween: 100,
-   slidesPerView:3.3,
-   freeMode:true,
+   spaceBetween: 50,
+   slidesPerView:1.2,
+ 
   });
 const supporter = new Swiper('.supporter', {
     // Optional parameters
    speed:1000,
    spaceBetween: 51,
-   slidesPerView:5,
+   slidesPerView:1.5,
+   centeredSlides:true,
    freeMode:true,
+   loop:true,
+   autoplay:{
+    delay:3000,
+   }
   });
 
   let slidders=document.querySelectorAll(".section5 .swiper-slide")
