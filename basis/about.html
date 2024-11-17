@@ -7,6 +7,9 @@
 <basis core="dbsource" name="db" source="media" lid="1" sourcemid="1" usedforid="2363537"> 
     <member name="aboutVideo" type="list" format="3"/> 
 </basis>
+<basis core="dbsource" name="db" source="basiscore" lid="1" mid="1" usedforid="2363537"> 
+    <member name="text" type="view" postsql="select * from [db.text] where TypeID=250"/> 
+</basis>
 <!DOCTYPE html>
 <html lang="fa">
 <head>
@@ -52,7 +55,7 @@
               </h1>
           
           </div>
-            <div class="LeftSec w-full flex justify-end items-end mt-[2em]">
+            <div class="LeftSec ml-auto relative w-[90%] flex justify-end items-end mt-[2em]">
                 <div class="IMG w-[90%] flex justify-start items-start">
                     <basis core="print" datamembername="db.aboutGallery">
                         <layout>
@@ -63,10 +66,19 @@
                         </face>
                     </basis>
                 </div>
-                <div class="Col w-[8%] relative left-[0] bottom-[0] flex justify-end items-end ">
-                    <span class="text w-max flex  relative before:content-[''] before:bg-darkBlue before:h-[50px]
-                    before:absolute before:top-0 before:w-[1px] before:translate-x-[-.3em] before:translate-y-[-100%] pt-[1em] ">
-                        <img src="/images/Engineer Shahrukh Keshavarz (1).png" alt="retailshow" title="retailshow" >
+                <div class="Col w-[8%] absolute left-0 bottom-0 flex justify-end items-end ">
+                    <span class="text w-max flex  absolute left-0 bottom-0 rotate-[90deg] before:content-[''] before:bg-darkBlue before:h-[50px]
+                    before:absolute before:top-0 before:w-[1px] before:translate-x-[-14.8em] before:translate-y-[.1em] 
+                    before:rotate-[90deg] pt-[1em] ">
+                    <basis core="print" datamembername="db.aboutGallery">
+                        <layout>
+                            @child
+                        </layout>
+                        <face filter="ord=2">
+                         <h5 class="w-max absolute left-0 bottom-0 translate-x-100 translate-y-[100%]
+                         font-TeluguMN700 font-bold text-sm leading-[17.02px] text-darkBlue ">  @name</h5>
+                        </face>
+                    </basis>
                     </span>
                 </div>
               </div>
@@ -86,10 +98,17 @@
                   
                   </div>
                     <div class="Title min-h-[30px] w-full flex justify-start items-start overflow-hidden">
+                        <basis core="print" datamembername="db.text">
+                            <layout>
+                                @child
+                            </layout>
+                            <face filter="Rownumber=1">
                         <h2  class="font-IRANSansWeb700 relative duration-700 translate-y-[100%] 
                         font-bold text-lg leading-[21.76px] text-darkBlue">
-                            جناب مهندس شاهرخ کشاورز
+                        @text
                         </h2>
+                            </face>
+                        </basis>
                     </div>
                    <div class="Text w-full flex justify-start items-start overflow-hidden flex-col">
                     <basis core="print" datamembername="db.aboutus">

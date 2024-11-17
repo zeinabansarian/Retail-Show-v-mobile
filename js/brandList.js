@@ -5,9 +5,11 @@ let filterBtn = document.querySelectorAll(".filterBtn");
 filterBtn[0].classList.add("activeBrandFilter")
 filterBtn.forEach(element => {
     element.addEventListener("click",function(params) {
+        let catid = params.currentTarget.getAttribute('data-catid')
         $(".filterBtn").removeClass("activeBrandFilter")
         element.classList.add("activeBrandFilter")
-
+        // var url = `/load-brandMobile.inc?catid=${catid}`;
+        // $(".gridContainer").load(url);
         let url=element.getAttribute("data-url")
         loadBrand(url);
 
@@ -36,7 +38,6 @@ function scrollTop(params) {
    });
 
 }
-
 
 
 setTimeout(() => {

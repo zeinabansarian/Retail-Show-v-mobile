@@ -705,7 +705,12 @@ filter: grayscale(0);
   .ContactUs-mobile .Section-2 h3,
   .ContactUs-mobile .Section-2 h4,
   .ContactUs-mobile .Section-2 span,
-  .ContactUs-mobile .Section-2 p{
+  .ContactUs-mobile .Section-2 p,
+  .homePage .section2 h1,
+  .homePage .section4 h2,
+  .homePage .section4 p,
+  .homePage .section5 h2,
+  .homePage .section6 h2{
     transform: translateY(100%);
   transition: all 700ms ease;
   opacity: 0;
@@ -730,3 +735,33 @@ filter: grayscale(0);
      }
   mark {background: #194a9652 !important}
   
+  .pagination1 {
+    width: auto;
+  }
+ .homePage .section2 .para p,
+ .homePage .section4 .para p{
+font-size: 14px;
+font-weight: 400;
+line-height: 21.91px;
+color: #000000;
+font-family: "IRANSansWeb400";
+text-align: justify;
+  }
+
+  .Etelaei-C section .Text p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25.02px;
+    color: #000000;
+    font-family: "IRANSansWeb300";
+    text-align: justify;
+  }
+  .Etelaei-C section h2,
+  .Etelaei-C section h3{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.91px;
+    color: #000000;
+    font-family: "IRANSansWeb400";
+    text-align: justify;
+  }
