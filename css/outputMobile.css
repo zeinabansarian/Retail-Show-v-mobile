@@ -1170,6 +1170,10 @@ video {
   display: grid;
 }
 
+.\!grid {
+  display: grid !important;
+}
+
 .inline-grid {
   display: inline-grid;
 }
@@ -1224,6 +1228,10 @@ video {
 
 .h-\[42px\] {
   height: 42px;
+}
+
+.h-\[50svh\] {
+  height: 50svh;
 }
 
 .h-\[50vh\] {
@@ -2073,6 +2081,10 @@ video {
 
 .gap-\[1em\] {
   gap: 1em;
+}
+
+.gap-\[2\.5em\] {
+  gap: 2.5em;
 }
 
 .gap-\[2\.5em\] {
@@ -4549,6 +4561,7 @@ main.Etelaei-C .section h2,
   font-family: "IRANSansWeb300";
   transform: translateY(100%);
   transition: all 700ms ease;
+  text-align: justify;
 }
 
 .AboutUs-mobile .section-3 .Text  p{
@@ -4559,6 +4572,7 @@ main.Etelaei-C .section h2,
   font-family: "IRANSansWeb300";
   transform: translateY(100%);
   transition: all 700ms ease;
+  text-align: justify;
 }
 
 .ContactUs-mobile fieldset [data-bc-section-title],
@@ -5373,6 +5387,10 @@ mark {
 
 .\[\&\.OP\]\:grid.OP {
   display: grid;
+}
+
+.\[\&\.OP\]\:\!grid.OP {
+  display: grid !important;
 }
 
 .\[\&\.OpenSearch\]\:translate-y-\[0\].OpenSearch {
