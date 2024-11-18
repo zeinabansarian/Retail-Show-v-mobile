@@ -991,6 +991,10 @@ video {
   margin-top: 2em;
 }
 
+.mt-\[4em\] {
+  margin-top: 4em;
+}
+
 .mt-\[5em\] {
   margin-top: 5em;
 }
@@ -1009,10 +1013,6 @@ video {
 
 .mt-auto {
   margin-top: auto;
-}
-
-.mt-\[4em\] {
-  margin-top: 4em;
 }
 
 .box-border {
@@ -1158,6 +1158,10 @@ video {
   height: 50vh;
 }
 
+.h-\[51svh\] {
+  height: 51svh;
+}
+
 .h-\[55px\] {
   height: 55px;
 }
@@ -1188,10 +1192,6 @@ video {
 
 .h-\[50svh\] {
   height: 50svh;
-}
-
-.h-\[51svh\] {
-  height: 51svh;
 }
 
 .min-h-\[30px\] {
@@ -1963,16 +1963,16 @@ video {
   gap: 1em;
 }
 
+.gap-\[2\.5em\] {
+  gap: 2.5em;
+}
+
 .gap-\[5em\] {
   gap: 5em;
 }
 
 .gap-\[5px\] {
   gap: 5px;
-}
-
-.gap-\[2\.5em\] {
-  gap: 2.5em;
 }
 
 .gap-x-2 {
@@ -4323,6 +4323,7 @@ main.Etelaei-C .section h2,
   font-family: "IRANSansWeb300";
   transform: translateY(100%);
   transition: all 700ms ease;
+  text-align: justify;
 }
 
 .AboutUs-mobile .section-3 .Text  p{
@@ -4333,6 +4334,7 @@ main.Etelaei-C .section h2,
   font-family: "IRANSansWeb300";
   transform: translateY(100%);
   transition: all 700ms ease;
+  text-align: justify;
 }
 
 .ContactUs-mobile fieldset [data-bc-section-title],

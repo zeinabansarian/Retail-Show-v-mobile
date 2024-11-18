@@ -534,6 +534,7 @@ filter: grayscale(0);
   font-family: "IRANSansWeb300";
   transform: translateY(100%);
   transition: all 700ms ease;
+  text-align: justify;
     }
     .AboutUs-mobile .section-3 .Text  p{
       font-size: 14px;
@@ -543,6 +544,7 @@ filter: grayscale(0);
       font-family: "IRANSansWeb300";
       transform: translateY(100%);
       transition: all 700ms ease;
+      text-align: justify;
     }
   
   .ContactUs-mobile fieldset [data-bc-section-title],

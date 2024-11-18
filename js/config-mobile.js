@@ -27,6 +27,7 @@ OP_Btn.addEventListener('click',()=>{
     flag = !flag
     switchScroll();
     mobileCont.classList.add('OP')
+    lenis.stop()
     gsap.to('.Mobile_Header .Is_top',{
         y:'0',
         ease:'none',
@@ -91,6 +92,7 @@ gsap.set('.Mobile_Header .Circle',{
   })
 CL_Btn.addEventListener('click',()=>{
     flag = !flag
+    lenis.start()
     switchScroll();
     gsap.to('.Mobile_Header .Menu_Link',{
         x:'-200%',
