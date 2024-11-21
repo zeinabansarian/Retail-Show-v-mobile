@@ -782,3 +782,6 @@ text-align: justify;
     background-size: cover;
     transform: translateY(-39%);
   }
+ .AboutUs-mobile .inVideo {
+  position: relative;
+}
