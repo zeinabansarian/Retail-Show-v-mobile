@@ -56,8 +56,8 @@ const mainPosterSlider = new Swiper('.mainPosterSlider', {
 jQuery('.openPara').readmore({
     speed: 100,
     collapsedHeight:103,
-    moreLink: '<button class="readMoreBtn"> <span>+</span> بیشتر</button>',
-    lessLink: '<button class="readMoreBtn"> <span>-</span> کمتر</button>',
+    moreLink: '<button class="readMoreBtn"> <span>+</span> مشاهده بیشتر</button>',
+    lessLink: '<button class="readMoreBtn"> <span>-</span> مشاهده کمتر</button>',
     heightMargin: 16,
     afterToggle: function(trigger, element, expanded) {
         
@@ -72,9 +72,10 @@ jQuery('.openPara').readmore({
 const branSlider = new Swiper('.branSlider', {
     // Optional parameters
     loop: true,
-    slidesPerView:5,
+    slidesPerView:2,
     speed:1000,
-    spaceBetween : 51,
+    spaceBetween : 35,
+    centeredSlides:true,
     autoplay:{
         delay:0,
     }
