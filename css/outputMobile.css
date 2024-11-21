@@ -729,6 +729,14 @@ video {
   top: 70%;
 }
 
+.right-\[\.5em\] {
+  right: .5em;
+}
+
+.top-\[11em\] {
+  top: 11em;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -1090,12 +1098,12 @@ video {
   display: flow-root;
 }
 
-.grid {
-  display: grid;
-}
-
 .\!grid {
   display: grid !important;
+}
+
+.grid {
+  display: grid;
 }
 
 .inline-grid {
@@ -1188,6 +1196,14 @@ video {
 
 .h-svh {
   height: 100svh;
+}
+
+.h-\[300px\] {
+  height: 300px;
+}
+
+.h-\[51svh\] {
+  height: 51svh;
 }
 
 .min-h-\[30px\] {
@@ -1323,6 +1339,14 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-\[13\%\] {
+  width: 13%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
 }
 
 .max-w-max {
@@ -1971,6 +1995,10 @@ video {
   gap: 5px;
 }
 
+.gap-\[3rem\] {
+  gap: 3rem;
+}
+
 .gap-x-2 {
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
@@ -2485,6 +2513,10 @@ video {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-\[\#ffffff90\] {
+  border-color: #ffffff90;
 }
 
 .\!bg-mainBlue {
@@ -3172,6 +3204,10 @@ video {
   line-height: 30px;
 }
 
+.leading-\[22\.45px\] {
+  line-height: 22.45px;
+}
+
 .text-\[\#336699\]\/\[\.35\] {
   color: rgb(51 102 153 / .35);
 }
@@ -3540,6 +3576,10 @@ video {
 
 .delay-100 {
   transition-delay: 100ms;
+}
+
+.delay-200 {
+  transition-delay: 200ms;
 }
 
 .duration-100 {
@@ -4585,6 +4625,22 @@ mark {
   text-align: justify;
 }
 
+main.posterList .listcontents{
+  position: relative;
+}
+
+main.posterList .listcontents .bg{
+  background: url('../images/bg (2).png');
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  transform: translateY(-39%);
+}
+
 @media (min-width: 480px) {
   .sm\:container {
     width: 100%;
@@ -4662,6 +4718,11 @@ mark {
 .before\:left-0::before {
   content: var(--tw-content);
   left: 0px;
+}
+
+.before\:left-\[-100\%\]::before {
+  content: var(--tw-content);
+  left: -100%;
 }
 
 .before\:right-0::before {
@@ -4829,6 +4890,11 @@ mark {
   transition-duration: 300ms;
 }
 
+.before\:duration-\[2s\]::before {
+  content: var(--tw-content);
+  transition-duration: 2s;
+}
+
 .before\:content-\[\'\'\]::before {
   --tw-content: '';
   content: var(--tw-content);
@@ -4970,6 +5036,11 @@ mark {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:text-yallow:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 203 5 / var(--tw-text-opacity));
+}
+
 .hover\:shadow-\[0px_4px_12px_0px_rgba\(0\2c _0\2c _0\2c _0\.3\)\]:hover {
   --tw-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.3);
   --tw-shadow-colored: 0px 4px 12px 0px var(--tw-shadow-color);
@@ -5009,6 +5080,25 @@ mark {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.group\/header.goTop .group-\[\&\.goTop\]\/header\:translate-y-\[-100\%\] {
+  --tw-translate-y: -100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group\/header.goTop .group-\[\&\.goTop\]\/header\:translate-y-\[-29\%\] {
+  --tw-translate-y: -29%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group\/header.goTop .group-\[\&\.goTop\]\/header\:\!bg-mainBlue {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(25 74 150 / var(--tw-bg-opacity)) !important;
+}
+
+.group\/header.light .group-\[\&\.light\]\/header\:bg-\[transparent\] {
+  background-color: transparent;
+}
+
 @media (min-width: 480px) {
   .sm\:underline {
     text-decoration-line: underline;
@@ -5021,12 +5111,12 @@ mark {
   }
 }
 
-.\[\&\.OP\]\:grid.OP {
-  display: grid;
-}
-
 .\[\&\.OP\]\:\!grid.OP {
   display: grid !important;
+}
+
+.\[\&\.OP\]\:grid.OP {
+  display: grid;
 }
 
 .\[\&\.OpenSearch\]\:translate-y-\[0\].OpenSearch {
@@ -5037,6 +5127,15 @@ mark {
 .\[\&\.activeHeader\]\:bg-main-blue.activeHeader {
   --tw-bg-opacity: 1;
   background-color: rgb(25 74 150 / var(--tw-bg-opacity));
+}
+
+.\[\&\.fade-left\]\:before\:left-0.fade-left::before {
+  content: var(--tw-content);
+  left: 0px;
+}
+
+.\[\&\.goDown\]\:top-\[-100vh\].goDown {
+  top: -100vh;
 }
 
 .\[\&\.goDown\]\:translate-y-\[-100\%\].goDown {
