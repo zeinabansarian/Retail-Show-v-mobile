@@ -27,7 +27,8 @@
        <div class="contact-container w-full flex flex-col">
         <section class="Section-1 w-full flex flex-col mt-[8em] mb-[2em]">
             <div class="LeftSec w-full flex justify-start items-start">
-                <div class="Map-Container  w-[95%] mr-auto flex justify-start items-start relative before:content-[''] before:absolute before:left-0
+                <div class="Map-Container  delay-200 [&.fade-left]:before:left-0  before:left-[-100%] before:duration-[2s]
+                w-[95%] mr-auto flex justify-start items-start relative before:content-[''] before:absolute before:left-0
                before:w-full before:h-[80%] before:bg-mainBlue before:top-0 before:bottom-0 before:my-auto before:z-[-1]">
                <basis core="print" datamembername="db.contactus">
                 <face filter="TypeID =246">
@@ -145,7 +146,8 @@
                                     @child
                                 </layout>
                                 <face filter="TypeID=244">
-                               <p class="duration-700 text-right translate-y-[100%] font-IRANSansWeb500 font-medium text-sm leading-21.91 text-darkBlue text-right">
+                               <p class="duration-700 translate-y-[100%] font-IRANSansWeb500 
+                               font-medium text-sm leading-21.91 text-darkBlue text-right">
                                 @Answer
                                </p>
                                 </face>
