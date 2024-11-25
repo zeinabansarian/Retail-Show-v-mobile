@@ -49,6 +49,9 @@
         html {
             font-size: unset;
         }
+        .popSliderFraction span , .popSlideShowFraction span ,.popImgSliderFraction span,.popImgSliderFraction i,.popSlideTimeFraction span{
+            color: white!important;
+        }
     </style>
 </head>
 
@@ -97,7 +100,7 @@
         <section class="section2 mt-10 mb-16" dir="rtl">
             <div class="rSide bg-lightbg pb-10">
                 <basis core="print" datamembername="db.poster">
-                    <face filter="TypeID=150">
+                    <face filter="TypeID=128">
                         <h1
                             class="font-IRANSansWeb500 w-90p mx-auto text-base text-dark-blue pr-4 py-2.5 before:h-full before:block flex relative items-center before:absolute before:right-0 before:top-0 before:bg-dark-blue before:w-[2px]">
                             @Answer
@@ -107,7 +110,7 @@
 
                 <basis core="print" datamembername="db.poster">
                     <layout>
-                        <div class="para w-90p mx-auto font-IRANSansWeb400 mt-6 overflow-hidden mb-8 openPara">
+                        <div class="para scrollTop w-90p mx-auto font-IRANSansWeb400 mt-6 overflow-hidden mb-8 openPara">
                             @child
                         </div>
                     </layout>
@@ -277,7 +280,7 @@
                                    
                                 </div>
                                 <div class="timeline-item__content-wrapper w-85p mx-auto" dir="rtl">
-                                    <div class="para font-IRANSansWeb400 text-xs text-justify mb-4 mt-1">
+                                    <div class="para scrollTop font-IRANSansWeb400 text-xs text-justify mb-4 mt-1">
                                         <p>[##rep.current.description##]</p>
                                     </div>
                                     <button data-toggle="modal"
@@ -342,7 +345,7 @@
                                                           [##rep.current.name##]
                                                         </h4>
 
-                                                        <div class="para font-IRANSansWeb400 text-sm">
+                                                        <div class="para scrollTop font-IRANSansWeb400 text-sm">
                                                             <p>[##rep.current.description##]</p>
                                                         </div>
                                                         <img class="w-full" src="/[##rep.current.largeIMG##]" alt="">
@@ -441,7 +444,7 @@
                                     <!-- <span class="font-IRANSansWeb400 text-lg mb-3">
                                         روز دوم
                                     </span> -->
-                                    <div class="para font-IRANSansWeb400 text-sm mb-4 text-justify">
+                                    <div class="para scrollTop font-IRANSansWeb400 text-sm mb-4 text-justify">
                                         <p>@description</p>
                                     </div>
                                     <button data-toggle="modal"
@@ -549,7 +552,7 @@
                                  @name
                                 </h4>
 
-                                <div class="para font-IRANSansWeb400 text-sm">
+                                <div class="para scrollTop font-IRANSansWeb400 text-sm">
                                     <p>@description</p>
                                 </div>
                             </div>
@@ -701,7 +704,7 @@
 
     <div style="z-index: 100;" class="popUpVideoGalleryContainer h-svh inset-0 z-1 w-svw bg-black -translate-y-[100%] duration-1000 fixed"
         data-lenis-prevent="true">
-        <div class="fThumb bg-black -translate-y-[100%] min-h-svh overflow-y-auto">
+        <div class="fThumb bg-black min-h-svh overflow-y-auto">
             <div class="closePop cursor-pointer absolute top-14 right-[5%]">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.4 14L0 12.6L5.6 7L0 1.4L1.4 0L7 5.6L12.6 0L14 1.4L8.4 7L14 12.6L12.6 14L7 8.4L1.4 14Z"
@@ -767,8 +770,8 @@
                         <basis core="print" datamembername="db.galleryLink1002">
                             <face filter="TypeID=254">
                                 <div class="swiper-slide flex items-center justify-center">
-                                    <div class="imgS w-full">
-                                        <iframe class="w-full object-cover" src="@largetext"></iframe>
+                                    <div class="imgS h-full w-full">
+                                        <iframe class="w-full h-full object-cover" src="@largetext"></iframe>
                                     </div>
                                 </div>
                             </face>
@@ -778,14 +781,14 @@
                 </div>
                 <div class="btnss mt-0 w-90p mx-auto relative flex items-center justify-between z-2">
 
-                    <div class="nextPop " style="background-color: #194A96;">
+                    <div class="nextPop " style="background-color: #FEBE1B;">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.9998 12.0002L10.7568 16.2432L9.34277 14.8282L12.1718 12.0002L9.34277 9.17216L10.7568 7.75716L14.9998 12.0002Z" fill="black"/>
                             </svg>
                             
                     </div>
                     <div class="popSliderFraction text-center "></div>
-                    <div class="prevPop rotate-180 " style="background-color: #194A96;">
+                    <div class="prevPop rotate-180 " style="background-color: #FEBE1B;">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.9998 12.0002L10.7568 16.2432L9.34277 14.8282L12.1718 12.0002L9.34277 9.17216L10.7568 7.75716L14.9998 12.0002Z" fill="black"/>
                             </svg>
@@ -798,7 +801,7 @@
 
     <div style="z-index: 100;" class="popUpVideoShowGalleryContainer h-svh inset-0 z-1 w-svw bg-black -translate-y-[100%] duration-1000 fixed"
         data-lenis-prevent="true">
-        <div class="fShowThumb bg-black -translate-y-[100%] min-h-svh overflow-y-auto">
+        <div class="fShowThumb bg-black min-h-svh overflow-y-auto">
             <div class="closeShowPop cursor-pointer absolute top-14 right-[5%]">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.4 14L0 12.6L5.6 7L0 1.4L1.4 0L7 5.6L12.6 0L14 1.4L8.4 7L14 12.6L12.6 14L7 8.4L1.4 14Z"
@@ -863,8 +866,8 @@
                         <basis core="print" datamembername="db.galleryLink1003">
                             <face filter="TypeID=254">
                                 <div class="swiper-slide flex items-center justify-center">
-                                    <div class="imgS w-full">
-                                        <iframe class="w-full object-cover" src="@largetext"></iframe>
+                                    <div class="imgS h-full w-full">
+                                        <iframe class="w-full h-full object-cover" src="@largetext"></iframe>
                                     </div>
                                 </div>
                             </face>
@@ -874,14 +877,14 @@
                 </div>
                 <div class="btnss mt-0 w-90p mx-auto relative flex items-center justify-between z-2">
 
-                    <div class="nextShowPop " style="background-color: #194A96;">
+                    <div class="nextShowPop " style="background-color: #FEBE1B;">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.9998 12.0002L10.7568 16.2432L9.34277 14.8282L12.1718 12.0002L9.34277 9.17216L10.7568 7.75716L14.9998 12.0002Z" fill="black"/>
                             </svg>
                             
                     </div>
                     <div class="popSlideShowFraction text-center mt-0 relative z-2"></div>
-                    <div class="prevShowPop rotate-180 " style="background-color:#194A96 ;">
+                    <div class="prevShowPop rotate-180 " style="background-color:#FEBE1B ;">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.9998 12.0002L10.7568 16.2432L9.34277 14.8282L12.1718 12.0002L9.34277 9.17216L10.7568 7.75716L14.9998 12.0002Z" fill="black"/>
                             </svg>
@@ -914,7 +917,7 @@
         <div class="w-svw mt-24 pb-20 h-[80vh]" dir="rtl">
             <div class="flex h-full items-center justify-center">
                 <div class="imgS h-full flex items-center justify-center w-full">
-                    <iframe class="w-full h-full object-cover" src=""
+                    <iframe class="" style="height: 180px;" src=""
                        ></iframe>
                 </div>
             </div>
@@ -923,7 +926,7 @@
 
     <div style="z-index: 100;" class="popUpImgGalleryContainer h-svh inset-0 z-1 w-svw bg-black -translate-y-[100%] duration-1000 fixed"
         data-lenis-prevent="true">
-        <div class="fImgThumb bg-black -translate-y-[100%] min-h-svh overflow-y-auto">
+        <div class="fImgThumb bg-black min-h-svh overflow-y-auto">
             <div class="closeImgPop cursor-pointer absolute top-14 right-[5%]">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.4 14L0 12.6L5.6 7L0 1.4L1.4 0L7 5.6L12.6 0L14 1.4L8.4 7L14 12.6L12.6 14L7 8.4L1.4 14Z"
@@ -933,7 +936,7 @@
             <div class="thumbContainer mt-28 w-90p mx-auto" dir="rtl">
                 <basis core="print" datamembername="db.posterGallery">
                     <face filter="ord=1000">
-                        <div class="thumbImgBox flex items-center relative justify-center">
+                        <div class="thumbImgBox mb-3 flex items-center relative justify-center">
                             <div class="imgS">
                                 <img class="w-full" src="/@largeIMG" alt="" />
                             </div>
@@ -946,7 +949,7 @@
             class="sImgGallery flex flex-col items-center justify-center fixed duration-1000 inset-0 -translate-y-[100%] h-svh w-svw overflow-hidden bg-black z-2">
             <div dir="rtl" class="popBtnsTools absolute top-16 right-[5%] z-3 flex items-center gap-x-6">
                 <div class="closeImgSlider cursor-pointer">
-                    <span class="font-IRANSansWeb400 text-sm text-mainYellow">
+                    <span class="font-IRANSansWeb400 text-sm text-white">
                         بازگشت به لیست
                     </span>
                 </div>
@@ -990,7 +993,7 @@
                     <basis core="print" datamembername="db.posterGallery">
                         <face filter="ord=1000">
                             <div class="swiper-slide flex flex-col items-center justify-center">
-                                <div class="imgS w-full">
+                                <div class="imgS overflow-hidden w-full">
                                     <img class="w-full object-cover" src="/@largeIMG" alt="" />
                                 </div>
                                 <!-- <div class="name text-center mt-8">
@@ -1005,7 +1008,7 @@
                 </div>
                 <div class="btnss mt-0 w-90p mx-auto relative flex items-center justify-between z-2">
 
-                    <div class="nextImgPop" style="background-color: #FEBE1B;">
+                    <div class="nextImgPop" style="background-color: #194A96;">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_681_5942)">
                             <path d="M15.0256 12.0002L10.7947 16.2432L9.38477 14.8282L12.2057 12.0002L9.38477 9.17216L10.7947 7.75716L15.0256 12.0002Z" fill="black"/>
@@ -1020,7 +1023,7 @@
                             
                     </div>
                     <div class="popImgSliderFraction text-center mt-10 relative z-2"></div>
-                    <div class="prevImgPop rotate-180" style="background-color: #FEBE1B;">
+                    <div class="prevImgPop rotate-180" style="background-color: #194A96;">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_681_5942)">
                             <path d="M15.0256 12.0002L10.7947 16.2432L9.38477 14.8282L12.2057 12.0002L9.38477 9.17216L10.7947 7.75716L15.0256 12.0002Z" fill="black"/>
@@ -1112,7 +1115,7 @@
         
     <div style="z-index: 100;" class="popUpTimeLineGalleryContainer h-svh inset-0 z-1 w-svw bg-black -translate-y-[100%] duration-1000 fixed"
         data-lenis-prevent="true">
-        <div class="fTimeThumb bg-black -translate-y-[100%] min-h-svh overflow-y-auto">
+        <div class="fTimeThumb bg-black min-h-svh overflow-y-auto">
             <div class="closeTimePop cursor-pointer absolute top-14 right-[5%]">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.4 14L0 12.6L5.6 7L0 1.4L1.4 0L7 5.6L12.6 0L14 1.4L8.4 7L14 12.6L12.6 14L7 8.4L1.4 14Z"

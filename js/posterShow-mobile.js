@@ -84,12 +84,12 @@ const branSlider = new Swiper('.branSlider', {
 const rightSlider = new Swiper('.rightSlider', {
     // Optional parameters
  speed:1000,
- loop:true,
+ loop:false,
  pagination: {
     el: '.paginRigt',
     type: 'custom',
     renderCustom: function (swiper, current, total) {
-        if (total>10) {
+        if (total>9) {
             if (current>9) {
                 
                 return `<span class="current">${current}</span>` + '<i>/</i>' + `<span class="total">${(total)}</span>`; 
@@ -125,7 +125,7 @@ const leftSlider = new Swiper('.leftSlider', {
     // Optional parameters
  speed:1000,
  slidesPerView:1.3,
- loop:true,
+ loop:false,
  spaceBetween: 20,
 
   });
@@ -174,4 +174,19 @@ hoverIcon.forEach(element => {
         },
     })
     
+});
+
+
+let scrollTop = document.querySelectorAll(".scrollTop")
+scrollTop.forEach(element => {
+ gsap.from(element,{
+     scrollTrigger:{
+         trigger:element,
+         start:"top 90%",
+         end:"bottom bottom",
+         // markers:true
+     },
+     y:"20vh",
+     opacity:0,
+ })
 });
