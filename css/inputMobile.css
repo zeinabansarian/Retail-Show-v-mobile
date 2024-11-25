@@ -788,6 +788,25 @@ text-align: justify;
     text-align: justify;
   }
 
+  main.posterList .listcontents{
+    position: relative;
+  }
+  main.posterList .listcontents .bg{
+    background: url('../images/bg (2).png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    transform: translateY(-39%);
+  }
+ .AboutUs-mobile .inVideo {
+  position: relative;
+}
+  
+
 
   
 .posterShow .readMoreBtn {

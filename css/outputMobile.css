@@ -1230,12 +1230,12 @@ video {
   height: 42px;
 }
 
-.h-\[50svh\] {
-  height: 50svh;
-}
-
 .h-\[50vh\] {
   height: 50vh;
+}
+
+.h-\[51svh\] {
+  height: 51svh;
 }
 
 .h-\[55px\] {
@@ -3756,6 +3756,10 @@ video {
   transition-delay: 100ms;
 }
 
+.delay-200 {
+  transition-delay: 200ms;
+}
+
 .duration-100 {
   transition-duration: 100ms;
 }
@@ -4819,6 +4823,26 @@ mark {
   text-align: justify;
 }
 
+main.posterList .listcontents{
+  position: relative;
+}
+
+main.posterList .listcontents .bg{
+  background: url('../images/bg (2).png');
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  transform: translateY(-39%);
+}
+
+.AboutUs-mobile .inVideo {
+  position: relative;
+}
+
 .posterShow .readMoreBtn {
   font-family: "IRANSansWeb300";
   font-size: 12px;
@@ -4992,6 +5016,11 @@ mark {
 .before\:left-0::before {
   content: var(--tw-content);
   left: 0px;
+}
+
+.before\:left-\[-100\%\]::before {
+  content: var(--tw-content);
+  left: -100%;
 }
 
 .before\:right-0::before {
@@ -5168,6 +5197,11 @@ mark {
 .before\:duration-300::before {
   content: var(--tw-content);
   transition-duration: 300ms;
+}
+
+.before\:duration-\[2s\]::before {
+  content: var(--tw-content);
+  transition-duration: 2s;
 }
 
 .before\:content-\[\'\'\]::before {
@@ -5393,6 +5427,11 @@ mark {
 .\[\&\.activeHeader\]\:bg-main-blue.activeHeader {
   --tw-bg-opacity: 1;
   background-color: rgb(25 74 150 / var(--tw-bg-opacity));
+}
+
+.\[\&\.fade-left\]\:before\:left-0.fade-left::before {
+  content: var(--tw-content);
+  left: 0px;
 }
 
 .\[\&\.goDown\]\:translate-y-\[-100\%\].goDown {

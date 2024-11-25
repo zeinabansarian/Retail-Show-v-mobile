@@ -87,54 +87,53 @@ const swiper = new Swiper(slider, {
 
 
 
-let sections = document.querySelectorAll('section')
-sections.forEach(s=>{
-  gsap.to(s.querySelectorAll("p"),{
-    scrollTrigger:{
-        trigger:s,
-        start:"top 90%",
-        end:"bottom bottom",
+// let sections = document.querySelectorAll('section')
+// sections.forEach(s=>{
+//   gsap.to(s.querySelectorAll("p"),{
+//     scrollTrigger:{
+//         trigger:s,
+//         start:"top 90%",
+//         end:"bottom bottom",
+//     },
+//     y:"0",
+//     opacity:1
+// })
+// })
+
+
+let scrollTop = document.querySelectorAll(".scrollTop");
+scrollTop.forEach((element) => {
+  console.log(element);
+  
+  gsap.to(element, {
+    scrollTrigger: {
+      trigger: element,
+      start: "top 90%",
+      end: "bottom bottom",
+      // markers:true
     },
-    y:"0",
-    opacity:1
-})
-})
-let titleMain = document.querySelectorAll(".Title-main")
-titleMain.forEach(element => {
- gsap.to(element.querySelector("h1,h2,h4,p"),{
-     scrollTrigger:{
-         trigger:element.querySelector("h1,h2,h4,p"),
-         start:"top 90%",
-         end:"bottom bottom",
-     },
-     y:"0",
-     opacity:1
- })
- gsap.to(element.querySelector(".line"),{
-     scrollTrigger:{
-         trigger:element.querySelector(".line"),
-         start:"top 90%",
-         end:"bottom bottom",
-     },
-     width:'60px',
- })
+    y: "0",
+    opacity: 1,
+  });
 });
-
-let scrollTop = document.querySelectorAll(".scrollTop")
-scrollTop.forEach(element => {
- gsap.from(element,{
-     scrollTrigger:{
-         trigger:element,
-         start:"top 90%",
-         end:"bottom bottom",
-         // markers:true
-     },
-     y:"20vh",
-     opacity:0,
- })
+let paras = document.querySelectorAll("p");
+paras.forEach((element) => {
+  console.log(element);
+  
+  gsap.to(element, {
+    scrollTrigger: {
+      trigger: element,
+      start: "top 90%",
+      end: "bottom bottom",
+      // markers:true
+    },
+    y: "0",
+    opacity: 1,
+  });
 });
 
 
+let titleMain=document.querySelectorAll(".Title-main");titleMain.forEach((t=>{gsap.to(t.querySelector("h1,h2,h3,h4  "),{y:0,scrollTrigger:{trigger:t,start:"top 90%",end:"bottom bottom"}}),gsap.to(t.querySelector("h2"),{y:0,scrollTrigger:{trigger:t,start:"top 90%",end:"bottom bottom"}}),gsap.to(t.querySelector(".line"),{height:"60px",scrollTrigger:{trigger:t,start:"top 90%",end:"bottom bottom"}})}))
 const lastCourse = new Swiper('.lastCourse', {
     // Optional parameters
    speed:1000,
@@ -168,12 +167,6 @@ const supporter = new Swiper('.supporter', {
 
     }
   });
-  let videoC = document.querySelector('.inVideo')
-  let overlays = document.querySelectorAll('.inVideo .overlay')
-  videoC.addEventListener('click',(e)=>{
-  overlays.forEach(o=>{
-      o.classList.add('hide')
-      e.stopPropagation()
-      const player = new Plyr('#player');
-  })
-  })
+  let videoC=document.querySelector(".section2 .inVideo"),overlays=document.querySelectorAll(".overlay"),is=!0;videoC.addEventListener("click",(t=>{overlays.forEach((o=>{o.classList.add("hide"),t.stopPropagation();const e=new Plyr("#player");is&&(e.play(),is=!1)}))}));
+
+  

@@ -49,9 +49,13 @@
         html {
             font-size: unset;
         }
-        .popSliderFraction span , .popSlideShowFraction span ,.popImgSliderFraction span,.popImgSliderFraction i,.popSlideTimeFraction span{
-            color: white!important;
-        }
+.Title-main .line{
+height: 0;
+}
+.popSliderFraction .current ,.popSliderFraction span{
+    color: white!important;
+
+}
     </style>
 </head>
 
@@ -100,17 +104,22 @@
         <section class="section2 mt-10 mb-16" dir="rtl">
             <div class="rSide bg-lightbg pb-10">
                 <basis core="print" datamembername="db.poster">
-                    <face filter="TypeID=128">
-                        <h1
-                            class="font-IRANSansWeb500 w-90p mx-auto text-base text-dark-blue pr-4 py-2.5 before:h-full before:block flex relative items-center before:absolute before:right-0 before:top-0 before:bg-dark-blue before:w-[2px]">
-                            @Answer
-                        </h1>
+                    <face filter="TypeID=150">
+                        <div class="Title-main w-90p mx-auto relative overflow-hidden  flex justify-start gap-4 items-center my-[4em]">
+                            <span
+                                class="line duration-700 absolute flex left-0 my-auto justify-center right-0 delay-100 w-[2px] h-0 bg-darkBlue"></span>
+
+                                <h1 class="font-IRANSansWeb500 scrollTop text-base text-dark-blue pr-4 py-2.5 flex relative items-center ">
+                                    @Answer
+                                </h1>
+                           
+                        </div>
                     </face>
                 </basis>
 
                 <basis core="print" datamembername="db.poster">
                     <layout>
-                        <div class="para scrollTop w-90p mx-auto font-IRANSansWeb400 mt-6 overflow-hidden mb-8 openPara">
+                        <div class="para w-90p mx-auto font-IRANSansWeb400 mt-6 overflow-hidden mb-8 openPara">
                             @child
                         </div>
                     </layout>
@@ -174,10 +183,16 @@
         <basis core="print" datamembername="db.posterGallery">
             <layout>
                 <section class="section3 mb-7" dir="rtl">
-                    <h2
-                        class="font-IRANSansWeb500 w-90p mx-auto mb-10 text-base text-dark-blue pr-4 py-2.5 before:h-full before:block flex relative items-center before:absolute before:right-0 before:top-0 before:bg-dark-blue before:w-[2px]">
-                        حامیان ما در دوره های گذشته نمایشگاه Iran Retail Show
-                    </h2>
+                    <div class="Title-main w-90p mx-auto relative overflow-hidden  flex justify-start gap-4 items-center my-[4em]">
+                        <span
+                            class="line duration-700 absolute flex left-0 my-auto justify-center right-0 delay-100 w-[2px] h-0 bg-darkBlue"></span>
+
+                            <h2
+                                class="font-IRANSansWeb500 scrollTop w-90p mx-auto mb-10 text-base text-dark-blue pr-4 py-2.5 flex relative items-center ">
+                                حامیان ما در دوره های گذشته نمایشگاه Iran Retail Show
+                            </h2>
+                    
+                    </div>
                     <!-- Slider main container -->
                     <div class="swiper branSlider px-[5%]">
                         <!-- Additional required wrapper -->
@@ -204,10 +219,16 @@
 
 
                 <section class="section4 w-90p mx-auto mb-7" dir="rtl">
-                    <h3
-                        class="font-IRANSansWeb500 mb-7 text-base text-dark-blue pr-4 py-2.5 before:h-full before:block flex relative items-center before:absolute before:right-0 before:top-0 before:bg-dark-blue before:w-[2px]">
-                        گزارش نمایشگاه
-                    </h3>
+                    <div class="Title-main relative overflow-hidden  flex justify-start gap-4 items-center my-[4em]">
+                        <span
+                            class="line duration-700 absolute flex left-0 my-auto justify-center right-0 delay-100 w-[2px] h-0 bg-darkBlue"></span>
+
+                            <h3
+                                class="font-IRANSansWeb500 scrollTop mb-7 text-base text-dark-blue pr-4 py-2.5 flex relative items-center">
+                                گزارش نمایشگاه
+                            </h3>
+                      
+                    </div>
 
                     <div class="timeline">
                         <basis core="repeater" name="rep" datamembername="db.posterGallery1001">
@@ -280,7 +301,7 @@
                                    
                                 </div>
                                 <div class="timeline-item__content-wrapper w-85p mx-auto" dir="rtl">
-                                    <div class="para scrollTop font-IRANSansWeb400 text-xs text-justify mb-4 mt-1">
+                                    <div class="para font-IRANSansWeb400 text-xs text-justify mb-4 mt-1">
                                         <p>[##rep.current.description##]</p>
                                     </div>
                                     <button data-toggle="modal"
@@ -345,7 +366,7 @@
                                                           [##rep.current.name##]
                                                         </h4>
 
-                                                        <div class="para scrollTop font-IRANSansWeb400 text-sm">
+                                                        <div class="para font-IRANSansWeb400 text-sm">
                                                             <p>[##rep.current.description##]</p>
                                                         </div>
                                                         <img class="w-full" src="/[##rep.current.largeIMG##]" alt="">
@@ -374,10 +395,16 @@
                 </section>
          
         <section class="section5 mb-10" dir="rtl">
-            <h4
-                class="font-IRANSansWeb500 w-90p mx-auto mb-10 text-base text-dark-blue pr-4 py-2.5 before:h-full before:block flex relative items-center before:absolute before:right-0 before:top-0 before:bg-dark-blue before:w-[2px]">
-                پنل های برگزار شده در دوره های گذشته ایران ریتیل شو
-            </h4>
+            <div class="Title-main w-90p mx-auto relative overflow-hidden  flex justify-start gap-4 items-center my-[4em]">
+                <span
+                    class="line duration-700 absolute flex left-0 my-auto justify-center right-0 delay-100 w-[2px] h-0 bg-darkBlue"></span>
+
+              
+                    <h4
+                        class="font-IRANSansWeb500 scrollTop mb-10 text-base text-dark-blue pr-4 py-2.5 flex relative items-center">
+                        پنل های برگزار شده در دوره های گذشته ایران ریتیل شو
+                    </h4>
+            </div>
             <div class="">
                   <!-- Slider main container -->
                   <div class="swiper leftSlider px-[5%]">
@@ -444,7 +471,7 @@
                                     <!-- <span class="font-IRANSansWeb400 text-lg mb-3">
                                         روز دوم
                                     </span> -->
-                                    <div class="para scrollTop font-IRANSansWeb400 text-sm mb-4 text-justify">
+                                    <div class="para font-IRANSansWeb400 text-sm mb-4 text-justify">
                                         <p>@description</p>
                                     </div>
                                     <button data-toggle="modal"
@@ -552,7 +579,7 @@
                                  @name
                                 </h4>
 
-                                <div class="para scrollTop font-IRANSansWeb400 text-sm">
+                                <div class="para font-IRANSansWeb400 text-sm">
                                     <p>@description</p>
                                 </div>
                             </div>
@@ -571,10 +598,16 @@
         <basis core="print" datamembername="db.posterGallery1003">
             <layout>
                 <section class="section6 mb-[55px]" dir="rtl">
-                    <h4
-                        class="font-IRANSansWeb500 w-90p mx-auto mb-10 text-base text-dark-blue pr-4 py-2.5 before:h-full before:block flex relative items-center before:absolute before:right-0 before:top-0 before:bg-dark-blue before:w-[2px]">
-                        ویدیو های مربوط به نمایشگاه
-                    </h4>
+                    <div class="Title-main w-90p mx-auto relative overflow-hidden  flex justify-start gap-4 items-center my-[4em]">
+                        <span
+                            class="line duration-700 absolute flex left-0 my-auto justify-center right-0 delay-100 w-[2px] h-0 bg-darkBlue"></span>
+
+                    
+                            <h4
+                                class="font-IRANSansWeb500 scrollTop w-90p mx-auto mb-10 text-base text-dark-blue pr-4 py-2.5 flex relative items-center">
+                                ویدیو های مربوط به نمایشگاه
+                            </h4>
+                    </div>
 
                     <div class="swiper videoSlider px-[5%]">
                         <!-- Additional required wrapper -->
@@ -633,10 +666,15 @@
             <layout>
                 <section class="section7 mb-[115px]" dir="rtl">
                     <div class="title mb-16 w-90p mx-auto flex justify-between items-center">
-                        <h4
-                            class="font-IRANSansWeb500 text-base text-dark-blue pr-4 py-2.5 before:h-full before:block flex relative items-center before:absolute before:right-0 before:top-0 before:bg-dark-blue before:w-[2px]">
-                            گالری تصاویر
-                        </h4>
+                        <div class="Title-main relative w-90p mx-autorelative overflow-hidden  flex justify-start gap-4 items-center my-[4em]">
+                            <span
+                                class="line duration-700 absolute flex left-0 my-auto justify-center right-0 delay-100 w-[2px] h-0 bg-darkBlue"></span>
+                                <h4
+                                    class="font-IRANSansWeb500 scrollTop text-base text-dark-blue pr-4 py-2.5 flex relative items-center ">
+                                    گالری تصاویر
+                                </h4>
+
+                        </div>
 
                         <div class="openPopGallery cursor-pointer py-3 px-8 bg-gray-bg rounded-md">
                             <span class="font-IRANSansWeb400 text-sm"> مشاهده گالری تصاویر  </span>
@@ -664,10 +702,15 @@
         <basis core="print" datamembername="db.posterGallery">
             <layout>
                 <section class="section8 pb-10" dir="rtl">
-                    <h4
-                        class="font-IRANSansWeb500 w-90p mx-auto mb-10 text-base text-dark-blue pr-4 py-2.5 before:h-full before:block flex relative items-center before:absolute before:right-0 before:top-0 before:bg-dark-blue before:w-[2px]">
-                        پلان ها
-                    </h4>
+                    <div class="Title-main w-90p mb-10 mx-auto relative overflow-hidden  flex justify-start gap-4 items-center my-[4em]">
+                        <span
+                            class="line duration-700 absolute flex left-0 my-auto justify-center right-0 delay-100 w-[2px] h-0 bg-darkBlue"></span>
+                            <h4
+                                class="font-IRANSansWeb500 scrollTop w-90p mx-auto  text-base text-dark-blue pr-4 py-2.5  flex relative items-center">
+                                پلان ها
+                            </h4>
+
+                    </div>
 
                     <div class="swiper planSlider px-[5%]">
                         <!-- Additional required wrapper -->
@@ -704,7 +747,7 @@
 
     <div style="z-index: 100;" class="popUpVideoGalleryContainer h-svh inset-0 z-1 w-svw bg-black -translate-y-[100%] duration-1000 fixed"
         data-lenis-prevent="true">
-        <div class="fThumb bg-black min-h-svh overflow-y-auto">
+        <div class="fThumb bg-black -translate-y-[100%] min-h-svh overflow-y-auto">
             <div class="closePop cursor-pointer absolute top-14 right-[5%]">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.4 14L0 12.6L5.6 7L0 1.4L1.4 0L7 5.6L12.6 0L14 1.4L8.4 7L14 12.6L12.6 14L7 8.4L1.4 14Z"
@@ -753,7 +796,7 @@
         <div
             class="sGallery flex flex-col items-center justify-center fixed duration-1000 inset-0 -translate-y-[100%] h-svh w-svw overflow-hidden bg-black z-2">
             <div class="closeSlider absolute top-16 right-[5%] cursor-pointer z-3">
-                <span class="font-IRANSansWeb400 text-sm text-white">
+                <span class="font-IRANSansWeb400 text-sm text-mainYellow">
                     بازگشت به لیست
                 </span>
             </div>
@@ -770,8 +813,8 @@
                         <basis core="print" datamembername="db.galleryLink1002">
                             <face filter="TypeID=254">
                                 <div class="swiper-slide flex items-center justify-center">
-                                    <div class="imgS h-full w-full">
-                                        <iframe class="w-full h-full object-cover" src="@largetext"></iframe>
+                                    <div class="imgS w-full">
+                                        <iframe class="w-full object-cover" src="@largetext" style="height: 40vh;"></iframe>
                                     </div>
                                 </div>
                             </face>
@@ -781,14 +824,14 @@
                 </div>
                 <div class="btnss mt-0 w-90p mx-auto relative flex items-center justify-between z-2">
 
-                    <div class="nextPop " style="background-color: #FEBE1B;">
+                    <div class="nextPop " style="background-color: #febe1b;">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.9998 12.0002L10.7568 16.2432L9.34277 14.8282L12.1718 12.0002L9.34277 9.17216L10.7568 7.75716L14.9998 12.0002Z" fill="black"/>
                             </svg>
                             
                     </div>
                     <div class="popSliderFraction text-center "></div>
-                    <div class="prevPop rotate-180 " style="background-color: #FEBE1B;">
+                    <div class="prevPop rotate-180 " style="background-color: #febe1b;">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.9998 12.0002L10.7568 16.2432L9.34277 14.8282L12.1718 12.0002L9.34277 9.17216L10.7568 7.75716L14.9998 12.0002Z" fill="black"/>
                             </svg>
@@ -801,7 +844,7 @@
 
     <div style="z-index: 100;" class="popUpVideoShowGalleryContainer h-svh inset-0 z-1 w-svw bg-black -translate-y-[100%] duration-1000 fixed"
         data-lenis-prevent="true">
-        <div class="fShowThumb bg-black min-h-svh overflow-y-auto">
+        <div class="fShowThumb bg-black -translate-y-[100%] min-h-svh overflow-y-auto">
             <div class="closeShowPop cursor-pointer absolute top-14 right-[5%]">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.4 14L0 12.6L5.6 7L0 1.4L1.4 0L7 5.6L12.6 0L14 1.4L8.4 7L14 12.6L12.6 14L7 8.4L1.4 14Z"
@@ -866,8 +909,8 @@
                         <basis core="print" datamembername="db.galleryLink1003">
                             <face filter="TypeID=254">
                                 <div class="swiper-slide flex items-center justify-center">
-                                    <div class="imgS h-full w-full">
-                                        <iframe class="w-full h-full object-cover" src="@largetext"></iframe>
+                                    <div class="imgS w-full">
+                                        <iframe class="w-full object-cover" src="@largetext"></iframe>
                                     </div>
                                 </div>
                             </face>
@@ -877,14 +920,14 @@
                 </div>
                 <div class="btnss mt-0 w-90p mx-auto relative flex items-center justify-between z-2">
 
-                    <div class="nextShowPop " style="background-color: #FEBE1B;">
+                    <div class="nextShowPop " style="background-color: #194A96;">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.9998 12.0002L10.7568 16.2432L9.34277 14.8282L12.1718 12.0002L9.34277 9.17216L10.7568 7.75716L14.9998 12.0002Z" fill="black"/>
                             </svg>
                             
                     </div>
                     <div class="popSlideShowFraction text-center mt-0 relative z-2"></div>
-                    <div class="prevShowPop rotate-180 " style="background-color:#FEBE1B ;">
+                    <div class="prevShowPop rotate-180 " style="background-color:#194A96 ;">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.9998 12.0002L10.7568 16.2432L9.34277 14.8282L12.1718 12.0002L9.34277 9.17216L10.7568 7.75716L14.9998 12.0002Z" fill="black"/>
                             </svg>
@@ -914,10 +957,10 @@
                 </defs>
             </svg>
         </div>
-        <div class="w-svw mt-24 pb-20 h-[80vh]" dir="rtl">
+        <div class="w-svw mt-24 pb-20 h-[80vh] " dir="rtl">
             <div class="flex h-full items-center justify-center">
-                <div class="imgS h-full flex items-center justify-center w-full">
-                    <iframe class="" style="height: 180px;" src=""
+                <div class="imgS flex items-center justify-center w-full">
+                    <iframe style="height: 40vh;" class="w-full object-cover" src=""
                        ></iframe>
                 </div>
             </div>
@@ -926,7 +969,7 @@
 
     <div style="z-index: 100;" class="popUpImgGalleryContainer h-svh inset-0 z-1 w-svw bg-black -translate-y-[100%] duration-1000 fixed"
         data-lenis-prevent="true">
-        <div class="fImgThumb bg-black min-h-svh overflow-y-auto">
+        <div class="fImgThumb bg-black -translate-y-[100%] min-h-svh overflow-y-auto">
             <div class="closeImgPop cursor-pointer absolute top-14 right-[5%]">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.4 14L0 12.6L5.6 7L0 1.4L1.4 0L7 5.6L12.6 0L14 1.4L8.4 7L14 12.6L12.6 14L7 8.4L1.4 14Z"
@@ -936,7 +979,7 @@
             <div class="thumbContainer mt-28 w-90p mx-auto" dir="rtl">
                 <basis core="print" datamembername="db.posterGallery">
                     <face filter="ord=1000">
-                        <div class="thumbImgBox mb-3 flex items-center relative justify-center">
+                        <div class="thumbImgBox flex items-center relative justify-center">
                             <div class="imgS">
                                 <img class="w-full" src="/@largeIMG" alt="" />
                             </div>
@@ -949,7 +992,7 @@
             class="sImgGallery flex flex-col items-center justify-center fixed duration-1000 inset-0 -translate-y-[100%] h-svh w-svw overflow-hidden bg-black z-2">
             <div dir="rtl" class="popBtnsTools absolute top-16 right-[5%] z-3 flex items-center gap-x-6">
                 <div class="closeImgSlider cursor-pointer">
-                    <span class="font-IRANSansWeb400 text-sm text-white">
+                    <span class="font-IRANSansWeb400 text-sm text-mainYellow">
                         بازگشت به لیست
                     </span>
                 </div>
@@ -993,7 +1036,7 @@
                     <basis core="print" datamembername="db.posterGallery">
                         <face filter="ord=1000">
                             <div class="swiper-slide flex flex-col items-center justify-center">
-                                <div class="imgS overflow-hidden w-full">
+                                <div class="imgS w-full">
                                     <img class="w-full object-cover" src="/@largeIMG" alt="" />
                                 </div>
                                 <!-- <div class="name text-center mt-8">
@@ -1008,7 +1051,7 @@
                 </div>
                 <div class="btnss mt-0 w-90p mx-auto relative flex items-center justify-between z-2">
 
-                    <div class="nextImgPop" style="background-color: #194A96;">
+                    <div class="nextImgPop" style="background-color: #FEBE1B;">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_681_5942)">
                             <path d="M15.0256 12.0002L10.7947 16.2432L9.38477 14.8282L12.2057 12.0002L9.38477 9.17216L10.7947 7.75716L15.0256 12.0002Z" fill="black"/>
@@ -1023,7 +1066,7 @@
                             
                     </div>
                     <div class="popImgSliderFraction text-center mt-10 relative z-2"></div>
-                    <div class="prevImgPop rotate-180" style="background-color: #194A96;">
+                    <div class="prevImgPop rotate-180" style="background-color: #FEBE1B;">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_681_5942)">
                             <path d="M15.0256 12.0002L10.7947 16.2432L9.38477 14.8282L12.2057 12.0002L9.38477 9.17216L10.7947 7.75716L15.0256 12.0002Z" fill="black"/>
@@ -1115,7 +1158,7 @@
         
     <div style="z-index: 100;" class="popUpTimeLineGalleryContainer h-svh inset-0 z-1 w-svw bg-black -translate-y-[100%] duration-1000 fixed"
         data-lenis-prevent="true">
-        <div class="fTimeThumb bg-black min-h-svh overflow-y-auto">
+        <div class="fTimeThumb bg-black -translate-y-[100%] min-h-svh overflow-y-auto">
             <div class="closeTimePop cursor-pointer absolute top-14 right-[5%]">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.4 14L0 12.6L5.6 7L0 1.4L1.4 0L7 5.6L12.6 0L14 1.4L8.4 7L14 12.6L12.6 14L7 8.4L1.4 14Z"
