@@ -65,29 +65,25 @@
 }
 @font-face {
   font-family: "BaiJamjuree700";
-  src: url("../_fonts/BaiJamjuree-Bold.eot");
-  src: url("../_fonts/BaiJamjuree-Bold.eot?#iefix")
-      format("embedded-opentype"),
-    url("../_fonts/BaiJamjuree-Bold.woff") format("woff"),
-    url("../_fonts/BaiJamjuree-Bold.woff2") format("woff2"),
-    url("../_fonts/BaiJamjuree-Bold.ttf") format("truetype");
+  src: url("../fonts/BaiJamjuree-Bold.eot");
+  src: url("../fonts/BaiJamjuree-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/BaiJamjuree-Bold.woff") format("woff"),
+    url("../fonts/BaiJamjuree-Bold.woff2") format("woff2"),
+    url("../fonts/BaiJamjuree-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Battambang700";
-  src: url("../_fonts/Battambang-Bold.eot");
-  src: url("../_fonts/Battambang-Bold.eot?#iefix")
-      format("embedded-opentype"),
-    url("../_fonts/Battambang-Bold.woff") format("woff"),
-    url("../_fonts/Battambang-Bold.woff2") format("woff2"),
-    url("../_fonts/Battambang-Bold.ttf") format("truetype");
+  src: url("../fonts/Battambang-Bold.eot");
+  src: url("../fonts/Battambang-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Battambang-Bold.woff") format("woff")
+    url("../fonts/Battambang-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-}
-@font-face {
+}@font-face {
   font-family: "Anton400";
   src: url("../_fonts/AntonSC-Regular.eot");
   src: url("../_fonts/AntonSC-Regular.eot?#iefix")
@@ -903,4 +899,18 @@ text-align: justify;
   font-size: 14px;
   font-weight: 300;
   line-height: 21.91px;
+}
+.SearchBox-popup{
+  min-height: 78px;
+background-color: #FFFFFFF2 !important;
+}
+.SearchBox-popup .CloseSearch {
+right: 0;
+top:0;
+}
+.loaded{
+  max-height: 50vh;
+}
+.searchinnerIcon {
+pointer-events: none;
 }
