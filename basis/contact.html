@@ -14,22 +14,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>تماس‌باما</title>
     <meta name="description" content="تماس‌باما">
-    <link rel="stylesheet" href="[##cms.cms.cdn##]/css/outputMobile.css">
-    <link rel="stylesheet" href="[##cms.cms.cdn##]/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="[##cms.cms.cdn##]/css/plyr.css" />
+   <basis core="call" file="styles-mobile.inc" />
     <link rel="stylesheet" href="[##cms.cms.cdn##]/css/leaflet.css">
-    <script src="https://cdn.basiscore.net/academy.basiscore.com/_js/basiscore-2.23.1.min.js"></script>
-<script src="https://cdn.basiscore.net/basispanel.ir/_js/alasql.min.js"></script>
+
+<style>
+    .Map-Container{
+        overflow: hidden;
+    }
+</style>
 </head>
 <body>
     <main class="ContactUs-mobile w-full overflow-hidden" dir="rtl">
         <basis core="call" file="header1.inc" pageindex="[##cms.cms.pageindex##]"/>
        <div class="contact-container w-full flex flex-col">
-        <section class="Section-1 w-full flex flex-col mt-[8em] mb-[2em]">
+        <section class="Section-1 w-full flex relative flex-col mt-[8em] mb-[2em]">
+            <div class="bgg absolute w-[40%] left-[-100%] duration-[.8s] top-[2.5em]  my-auto h-[50%] bg-mainBlue "></div>
             <div class="LeftSec w-full flex justify-start items-start">
-                <div class="Map-Container  delay-200 [&.fade-left]:before:left-0  before:left-[-100%] before:duration-[2s]
-                w-[95%] mr-auto flex justify-start items-start relative before:content-[''] before:absolute before:left-0
-               before:w-full before:h-[80%] before:bg-mainBlue before:top-0 before:bottom-0 before:my-auto before:z-[-1]">
+                <div class="Map-Container  delay-200 [&.fade-left]:before:left-0 
+                w-[95%] mr-auto flex justify-start items-start relative 
+              ">
                <basis core="print" datamembername="db.contactus">
                 <face filter="TypeID =246">
                     <div class="Map Map_1 h-[316px] flex justify-start items-start ml-auto w-[93%]" id="Map_1" data-x="@text" data-y="@largetext">

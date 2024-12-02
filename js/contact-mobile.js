@@ -1,8 +1,7 @@
 gsap.registerPlugin(ScrollTrigger)
-let mapcontain = document.querySelector('.Map-Container')
-setTimeout(() => {
-  mapcontain.classList.add('fade-left')
-}, 500);
+gsap.to('.bgg',{
+  left:0,
+})
 let titleMain = document.querySelectorAll('.Title-main')
 titleMain.forEach(t=>{
     gsap.to(t.querySelector('h1'),{
@@ -78,21 +77,6 @@ gsap.to('.Form-container p',{
       end:'bottom bottom'
     }
   })
-
-  
-const host = {
-  debug: false,
-  settings:{
-            'connection.web.trust_login': 'https://basispanel.ir/apicms', 
-        'connection.web.basiscore': 'https://basispanel.ir/apicms', 
-        'connection.web.media': 'https://basispanel.ir/apicms', 
-        'default.dbsource.verb': 'post', 
-        'default.call.verb': 'get', 
-        'default.viewCommand.groupColumn': 'prpid', 
-            "default.dmnid":'4880',
-            "default.binding.regex":"\\{##([^#]*)##\\}"
-        }
-}
 
 
 function onSource(args) { 

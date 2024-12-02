@@ -689,6 +689,10 @@ video {
   left: 0px;
 }
 
+.left-\[-100\%\] {
+  left: -100%;
+}
+
 .left-\[\.5em\] {
   left: .5em;
 }
@@ -727,6 +731,10 @@ video {
 
 .top-\[\.8em\] {
   top: .8em;
+}
+
+.top-\[2\.5em\] {
+  top: 2.5em;
 }
 
 .top-\[3em\] {
@@ -1067,16 +1075,16 @@ video {
   margin-top: 2em;
 }
 
+.mt-\[4em\] {
+  margin-top: 4em;
+}
+
 .mt-\[5em\] {
   margin-top: 5em;
 }
 
 .mt-\[6em\] {
   margin-top: 6em;
-}
-
-.mt-\[7vh\] {
-  margin-top: 7vh;
 }
 
 .mt-\[8em\] {
@@ -1258,6 +1266,10 @@ video {
   height: 64px;
 }
 
+.h-\[68\%\] {
+  height: 68%;
+}
+
 .h-\[80vh\] {
   height: 80vh;
 }
@@ -1276,6 +1288,10 @@ video {
 
 .h-svh {
   height: 100svh;
+}
+
+.h-\[50\%\] {
+  height: 50%;
 }
 
 .min-h-\[30px\] {
@@ -1347,8 +1363,8 @@ video {
   width: 2px;
 }
 
-.w-\[50\%\] {
-  width: 50%;
+.w-\[40\%\] {
+  width: 40%;
 }
 
 .w-\[55px\] {
@@ -3045,10 +3061,6 @@ video {
   padding-bottom: 1em;
 }
 
-.pb-\[30px\] {
-  padding-bottom: 30px;
-}
-
 .pl-24 {
   padding-left: 6rem;
 }
@@ -3792,6 +3804,10 @@ video {
   transition-duration: .4s;
 }
 
+.duration-\[\.8s\] {
+  transition-duration: .8s;
+}
+
 .duration-\[100\] {
   transition-duration: 100;
 }
@@ -3956,13 +3972,12 @@ video {
 @font-face {
   font-family: "BaiJamjuree700";
 
-  src: url("../_fonts/BaiJamjuree-Bold.eot");
+  src: url("../fonts/BaiJamjuree-Bold.eot");
 
-  src: url("../_fonts/BaiJamjuree-Bold.eot?#iefix")
-      format("embedded-opentype"),
-    url("../_fonts/BaiJamjuree-Bold.woff") format("woff"),
-    url("../_fonts/BaiJamjuree-Bold.woff2") format("woff2"),
-    url("../_fonts/BaiJamjuree-Bold.ttf") format("truetype");
+  src: url("../fonts/BaiJamjuree-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/BaiJamjuree-Bold.woff") format("woff"),
+    url("../fonts/BaiJamjuree-Bold.woff2") format("woff2"),
+    url("../fonts/BaiJamjuree-Bold.ttf") format("truetype");
 
   font-weight: 700;
 
@@ -3974,13 +3989,11 @@ video {
 @font-face {
   font-family: "Battambang700";
 
-  src: url("../_fonts/Battambang-Bold.eot");
+  src: url("../fonts/Battambang-Bold.eot");
 
-  src: url("../_fonts/Battambang-Bold.eot?#iefix")
-      format("embedded-opentype"),
-    url("../_fonts/Battambang-Bold.woff") format("woff"),
-    url("../_fonts/Battambang-Bold.woff2") format("woff2"),
-    url("../_fonts/Battambang-Bold.ttf") format("truetype");
+  src: url("../fonts/Battambang-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Battambang-Bold.woff") format("woff")
+    url("../fonts/Battambang-Bold.ttf") format("truetype");
 
   font-weight: 700;
 
@@ -4939,6 +4952,24 @@ main.posterList .listcontents .bg{
   line-height: 21.91px;
 }
 
+.SearchBox-popup{
+  min-height: 78px;
+  background-color: #FFFFFFF2 !important;
+}
+
+.SearchBox-popup .CloseSearch {
+  right: 0;
+  top:0;
+}
+
+.loaded{
+  max-height: 50vh;
+}
+
+.searchinnerIcon {
+  pointer-events: none;
+}
+
 @media (min-width: 480px) {
   .sm\:container {
     width: 100%;
@@ -5018,11 +5049,6 @@ main.posterList .listcontents .bg{
   left: 0px;
 }
 
-.before\:left-\[-100\%\]::before {
-  content: var(--tw-content);
-  left: -100%;
-}
-
 .before\:right-0::before {
   content: var(--tw-content);
   right: 0px;
@@ -5041,12 +5067,6 @@ main.posterList .listcontents .bg{
 .before\:z-\[-1\]::before {
   content: var(--tw-content);
   z-index: -1;
-}
-
-.before\:my-auto::before {
-  content: var(--tw-content);
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .before\:block::before {
@@ -5197,11 +5217,6 @@ main.posterList .listcontents .bg{
 .before\:duration-300::before {
   content: var(--tw-content);
   transition-duration: 300ms;
-}
-
-.before\:duration-\[2s\]::before {
-  content: var(--tw-content);
-  transition-duration: 2s;
 }
 
 .before\:content-\[\'\'\]::before {
