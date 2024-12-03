@@ -1,0 +1,52 @@
+@font-face {
+  font-family: IRANSansWebBB300;
+  src: url("../_fonts/IRANSansWeb_Regular.eot");
+  src: url("../_fonts/IRANSansWeb_Regular.eot?#iefix")
+    format("embedded-opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: IRANSansWebBB400;
+  src: url("../_fonts/IRANSansWeb_Medium.eot");
+  src: url("../_fonts/IRANSansWeb_Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../_fonts/IRANSansWeb_Medium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  font-size: unset;
+}
+body {
+  overflow: auto !important;
+}
+.Title-main .line {
+  height: 0;
+}
+.popSliderFraction .current,
+.popSliderFraction span {
+  color: #fff !important;
+}
+.swiper-paginationimgSlider .swiper-pagination-bullet {
+  opacity: 1;
+  border: 1px solid #002b43;
+  background: 0 0;
+}
+.swiper-paginationimgSlider .swiper-pagination-bullet-active {
+  background: #002b43 !important;
+}
+.swiper-paginationimgSlider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.posterShow .pagination1 .total {
+  font-family: IRANSansWebBB300 !important;
+}
+.posterShow .pagination1 .current {
+  font-family: IRANSansWebBB400 !important;
+}

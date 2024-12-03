@@ -18,15 +18,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <basis core="print" datamembername="db.seolist">
-        <face>
-            <title>[##cms.seo.title|db.seolist.title##]</title>
-            <meta name="description" content="[##cms.seo.description|db.seolist.description##]" />
-        </face>
-    </basis>
-    <link rel="stylesheet" href="[##cms.cms.cdn##]/css/leaflet.css">
-    <link rel="stylesheet" href="[##cms.cms.cdn##]/css/outputMobile.css">
-</head>
+    
+            <title>اطلاعیه</title>
+            <meta name="description" content="اطلاعیه" />
+     
+       <basis core="call" file="styles-mobile.inc" />
+    </head>
 <body>
     <main class="etelaeyieList overflow-hidden " dir="rtl">
         <basis core="call" file="header1.inc" pageindex="[##cms.cms.pageindex##]" />
@@ -58,7 +55,7 @@
                     <a href="@link" alt="@title" title="@title" class="EtalaeiItem group/EtalaeiItem w-full flex relative justify-center opacity-0 translate-y-[100%] duration-1000 flex-col gap-3 border-b border-pink pb-[.5em]
                      items-center overflow-hidden">
                      <div class="IMG w-full flex justify-center">
-                        <img src="/@00268X00268prp" alt="@title" title="@title" class="w-full object-cover">
+                        <img src="[##cms.cms.cdn##]/@00268X00268prp" alt="@title" title="@title" class="w-full object-cover">
                      </div>
                       <div class="Date w-full flex justify-start">
                         <span class="font-IRANSansWeb400 font-normal text-xs leading-18.78 text-gray-middle">
@@ -93,8 +90,6 @@
         </main>
 
         <basis core="call" file="script-mobile.inc" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-        <script src="[##cms.cms.cdn##]/_js/swiper.js"></script>
         <script src="[##cms.cms.cdn##]/js/headerMobile-Dark.js"></script>
         <script src="[##cms.cms.cdn##]/js/etelaeiList-mobile.js"></script>
 

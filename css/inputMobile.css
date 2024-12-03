@@ -1,8 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-:root{
-  --plyr-color-main:#FEBE1B
+:root {
+  --plyr-color-main: #febe1b;
 }
 @font-face {
   font-family: "TeluguMN700";
@@ -79,15 +79,15 @@
   src: url("../fonts/Battambang-Bold.eot");
   src: url("../fonts/Battambang-Bold.eot?#iefix") format("embedded-opentype"),
     url("../fonts/Battambang-Bold.woff") format("woff")
-    url("../fonts/Battambang-Bold.ttf") format("truetype");
+      url("../fonts/Battambang-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-}@font-face {
+}
+@font-face {
   font-family: "Anton400";
   src: url("../_fonts/AntonSC-Regular.eot");
-  src: url("../_fonts/AntonSC-Regular.eot?#iefix")
-      format("embedded-opentype"),
+  src: url("../_fonts/AntonSC-Regular.eot?#iefix") format("embedded-opentype"),
     url("../_fonts/AntonSC-Regular.woff") format("woff"),
     url("../_fonts/AntonSC-Regular.woff2") format("woff2"),
     url("../_fonts/AntonSC-Regular.ttf") format("truetype");
@@ -244,7 +244,6 @@
   animation: rotateAndFade 1s forwards;
 }
 
-
 .faNum {
   font-family: "IRANSansWeb300";
 }
@@ -362,19 +361,40 @@
   height: 2px;
   background-color: #ffffff80;
 }
+
+@font-face {
+  font-family: IRANSansWebBB300;
+  src: url("../_fonts/IRANSansWeb_Regular.eot");
+  src: url("../_fonts/IRANSansWeb_Regular.eot?#iefix")
+    format("embedded-opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: IRANSansWebBB400;
+  src: url("../_fonts/IRANSansWeb_Medium.eot");
+  src: url("../_fonts/IRANSansWeb_Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../_fonts/IRANSansWeb_Medium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 .homePage .section1 .pagination1 .current {
-  font-family: "IRANSansWeb400";
+  font-family: "IRANSansWebBB400";
   font-size: 25px;
   line-height: 39.13px;
   text-align: left;
   color: white;
 }
 .homePage .section1 .pagination1 .total {
-  font-family: "IRANSansWeb300";
+  font-family: "IRANSansWebBB300";
   font-size: 14px;
   line-height: 21.13px;
   text-align: left;
   color: white;
+  
 }
 .homePage .section1 .pagination1 i {
   font-family: "IRANSansWeb500";
@@ -415,30 +435,22 @@
 .popSliderFraction i,
 .popSlideTimeFraction .current,
 .popSlideTimeFraction i,
-.popSlideShowFraction i
-
-{
+.popSlideShowFraction i {
   font-family: "IRANSansWeb400";
   font-size: 20px;
   line-height: 31.3px;
   color: #febe1b;
 }
-.popSliderFraction i ,
-.popImgSliderFraction i ,
-.popSlideTimeFraction i ,
-.popSlideShowFraction i 
-
-
-{
+.popSliderFraction i,
+.popImgSliderFraction i,
+.popSlideTimeFraction i,
+.popSlideShowFraction i {
   margin: 0 5px;
 }
-.popSliderFraction span ,
-.popImgSliderFraction span ,
-.popSlideTimeFraction span ,
-.popSlideShowFraction span 
-
-
-{
+.popSliderFraction span,
+.popImgSliderFraction span,
+.popSlideTimeFraction span,
+.popSlideShowFraction span {
   font-family: "IRANSansWeb400";
   font-size: 15px;
   color: #febe1b;
@@ -459,12 +471,12 @@
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 ::-webkit-scrollbar {
   width: 2px;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -472,11 +484,11 @@
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #555;
 }
-.SearchBox-popup  input{
-  box-shadow: 0px 4px 4px 0px #C2C2C240;
+.SearchBox-popup input {
+  box-shadow: 0px 4px 4px 0px #c2c2c240;
 }
-.SearchBox-popup{
-  background-color:    rgba(169, 169, 169, 0.14) ;
+.SearchBox-popup {
+  background-color: rgba(169, 169, 169, 0.14);
 }
 @keyframes rotateAndFade {
   0% {
@@ -488,323 +500,322 @@
     border-color: white; /* Final border color */
   }
 }
-.ShowMore:hover .circle{
+.ShowMore:hover .circle {
   animation: rotateAndFade 1s forwards;
 }
 .About-container .line.line-1 {
-background: linear-gradient(90deg, #FEBE1B 51%, #000000 100%);
-
+  background: linear-gradient(90deg, #febe1b 51%, #000000 100%);
 }
 .About-container .line.line-2 {
-background: linear-gradient(90deg, #000000 0%, #FEBE1B 100%);
+  background: linear-gradient(90deg, #000000 0%, #febe1b 100%);
 }
-main.Etelaei-C .section p,main.Etelaei-C .section h1,
+main.Etelaei-C .section p,
+main.Etelaei-C .section h1,
 main.Etelaei-C .section h2,
-.aboutUs-C .Text p{
-transform: translateY(100%);
--webkit-transform: translateY(100%);
--moz-transform: translateY(100%);
--ms-transform: translateY(100%);
--o-transform: translateY(100%);
-transition: all 700ms;
--webkit-transition: all 700ms;
--moz-transition: all 700ms;
--ms-transition: all 700ms;
--o-transition: all 700ms;
+.aboutUs-C .Text p {
+  transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transition: all 700ms;
+  -webkit-transition: all 700ms;
+  -moz-transition: all 700ms;
+  -ms-transition: all 700ms;
+  -o-transition: all 700ms;
 }
-.EtalaeiItem img{
-filter: grayscale(1);
--webkit-filter: grayscale(1);
-transition: all .5s ease;
--webkit-transition: all .5s ease;
--moz-transition: all .5s ease;
--ms-transition: all .5s ease;
--o-transition: all .5s ease;
+.EtalaeiItem img {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
-.EtalaeiItem:hover img{
-filter: grayscale(0);
--webkit-filter: grayscale(0);
+.EtalaeiItem:hover img {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
 }
-
-
 
 .pause {
-    opacity: 1;
-  }
-  
-  .play {
-    opacity: 0;
-    display: none;
-  }
-  
-.s{
+  opacity: 1;
+}
+
+.play {
+  opacity: 0;
+  display: none;
+}
+
+.s {
   color: #002c43af;
 }
 
-
-.AboutUs-mobile .section-2 .Text  p{
+.AboutUs-mobile .section-2 .Text p {
   font-size: 14px;
   font-weight: 300;
   line-height: 21.91px;
-  color: #000000 ;
+  color: #000000;
   font-family: "IRANSansWeb300";
   transform: translateY(100%);
   transition: all 700ms ease;
   text-align: justify;
-    }
-    .AboutUs-mobile .section-3 .Text  p{
-      font-size: 14px;
-      font-weight: 300;
-      line-height: 21.91px;
-      color: #000000 ;
-      font-family: "IRANSansWeb300";
-      transform: translateY(100%);
-      transition: all 700ms ease;
-      text-align: justify;
-    }
-  
-  .ContactUs-mobile fieldset [data-bc-section-title],
-  .ContactUs-mobile [data-bc-title-container]{
-    display: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  [data-bc-part-container], [data-bc-btn-container]{
+}
+.AboutUs-mobile .section-3 .Text p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21.91px;
+  color: #000000;
+  font-family: "IRANSansWeb300";
+  transform: translateY(100%);
+  transition: all 700ms ease;
+  text-align: justify;
+}
+
+.ContactUs-mobile fieldset [data-bc-section-title],
+.ContactUs-mobile [data-bc-title-container] {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+[data-bc-part-container],
+[data-bc-btn-container] {
   width: 100% !important;
-  }
-  [data-bc-question],
-  [data-bc-answer-container],[data-bc-schema-info-part="1"] [data-bc-part-related-cell]{
+}
+[data-bc-question],
+[data-bc-answer-container],
+[data-bc-schema-info-part="1"] [data-bc-part-related-cell] {
   width: 100% !important;
   margin: 0;
-  }
-  [data-bc-section]{
-    margin: 0;
-    padding: 0;
-  }
-  [data-bc-answer-container] input[type="text"], [data-bc-answer-container] input[type="password"],
-   [data-bc-answer-container] input[type="time"],
-    [data-bc-answer-container] input[type="file"], 
-    [data-bc-answer-container] select, [data-bc-answer-container] textarea
-    {
-          width: 100% !important;
-          background-color: transparent !important;
-          border: 1px solid #D7D7D7;
-          font-size: 14px !important;
-          font-weight: 400 !important;
-          line-height: 21.91px;
-          color: #194A968F !important;
-          font-family: "IRANSansWeb400" !important;
-          height: 42px ;
-          padding: 0 .5em !important;
-          resize: none !important;
-          border-radius:0 !important     ;
-          -webkit-border-radius:0 !important     ;
-          -moz-border-radius:0 !important     ;
-          -ms-border-radius:0 !important     ;
-          -o-border-radius:0 !important     ;
-  }
-   input[type="text"]:focus,
-    [data-bc-answer-container]
-     input[type="file"]:focus,
-      [data-bc-answer-container] select:focus, 
-      [data-bc-answer-container] textarea:focus{
-        border-color:transparent !important;
-        box-shadow:none;
-        outline: 0 none;
-        background-color:transparent;
-  }
-  .ContactUs-mobile [data-bc-schema-column]{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: .5em;
-  
-  }
-  
-  .ContactUs-mobile .col,
-  .ContactUs-C .captchaBox{
-    width: 100%;
-    display: flex;
-  }
-  .ContactUs-mobile .captchaBox{
-    width: 100%;
-    border: 1px solid #D7D7D7;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
-  }
-  .ContactUs-mobile .captchaBox input{
-    width: 100% !important;
-          background-color: transparent !important;
-        
-          font-size: 14px !important;
-          font-weight: 400 !important;
-          line-height: 21.91px;
-          color: #194A968F !important;
-          font-family: "IRANSansWeb400" !important;
-          height: 40px;
-          padding: 0 .5em !important;
-  }
-  .ContactUs-mobile .captchaBox input::placeholder,
-  [data-bc-answer-container] input[type="text"]::placeholder{
-    font-size: 14px !important;
-    font-weight: 400 !important;
-    line-height: 21.91px;
-    color: #194A968F !important;
-    font-family: "IRANSansWeb400" !important;
-  }
-  .ContactUs-mobile .captchaBox img {
-    height: 40px;
-  }
-  [data-bc-section]{
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-  .ContactUs-mobile .Box{
-    margin-left: auto;
-    width: 100%;
-  }
-  .ContactUs-mobile .Form-container{
-    gap: 1em;
-  }
-  .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom{
-    z-index: 1 !important;
-  }
-  
-  .main-container {
-    width: -moz-max-content;
-    width: max-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .3em;
-    padding: 1.5em;
-    height: 100px;
-    transition: all 0.4s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#FEBE1B;
-    color: #fff;
-    font-size: 14px;
-    font-family: "IRANSansWeb700";
-    position: fixed;
-    left: -100vw;
-    top: 50%;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -ms-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    z-index: 999;
-  }
-  .main-container span {
-    color: #000000;
-    font-size: 18px;
-    font-family: "IRANSansWeb500";
-    line-height: 28.17px;
-  }
-  .main-container.SEND {
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-  .ContactUs-mobile .Section-2 .Col:nth-child(1) .Answer  p{
-  color: #002B43;
+}
+[data-bc-section] {
+  margin: 0;
+  padding: 0;
+}
+[data-bc-answer-container] input[type="text"],
+[data-bc-answer-container] input[type="password"],
+[data-bc-answer-container] input[type="time"],
+[data-bc-answer-container] input[type="file"],
+[data-bc-answer-container] select,
+[data-bc-answer-container] textarea {
+  width: 100% !important;
+  background-color: transparent !important;
+  border: 1px solid #d7d7d7;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 21.91px;
+  color: #194a968f !important;
+  font-family: "IRANSansWeb400" !important;
+  height: 42px;
+  padding: 0 0.5em !important;
+  resize: none !important;
+  border-radius: 0 !important     ;
+  -webkit-border-radius: 0 !important     ;
+  -moz-border-radius: 0 !important     ;
+  -ms-border-radius: 0 !important     ;
+  -o-border-radius: 0 !important     ;
+}
+input[type="text"]:focus,
+[data-bc-answer-container] input[type="file"]:focus,
+[data-bc-answer-container] select:focus,
+[data-bc-answer-container] textarea:focus {
+  border-color: transparent !important;
+  box-shadow: none;
+  outline: 0 none;
+  background-color: transparent;
+}
+.ContactUs-mobile [data-bc-schema-column] {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.ContactUs-mobile .col,
+.ContactUs-C .captchaBox {
+  width: 100%;
+  display: flex;
+}
+.ContactUs-mobile .captchaBox {
+  width: 100%;
+  border: 1px solid #d7d7d7;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.ContactUs-mobile .captchaBox input {
+  width: 100% !important;
+  background-color: transparent !important;
+
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 21.91px;
+  color: #194a968f !important;
+  font-family: "IRANSansWeb400" !important;
+  height: 40px;
+  padding: 0 0.5em !important;
+}
+.ContactUs-mobile .captchaBox input::placeholder,
+[data-bc-answer-container] input[type="text"]::placeholder {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 21.91px;
+  color: #194a968f !important;
+  font-family: "IRANSansWeb400" !important;
+}
+.ContactUs-mobile .captchaBox img {
+  height: 40px;
+}
+[data-bc-section] {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.ContactUs-mobile .Box {
+  margin-left: auto;
+  width: 100%;
+}
+.ContactUs-mobile .Form-container {
+  gap: 1em;
+}
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+  z-index: 1 !important;
+}
+
+.main-container {
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
+  padding: 1.5em;
+  height: 100px;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #febe1b;
+  color: #fff;
+  font-size: 14px;
+  font-family: "IRANSansWeb700";
+  position: fixed;
+  left: -100vw;
+  top: 50%;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  z-index: 999;
+}
+.main-container span {
+  color: #000000;
+  font-size: 18px;
+  font-family: "IRANSansWeb500";
+  line-height: 28.17px;
+}
+.main-container.SEND {
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.ContactUs-mobile .Section-2 .Col:nth-child(1) .Answer p {
+  color: #002b43;
   font-size: 14px;
   font-family: "IRANSansWeb500";
   line-height: 21.91px;
   font-weight: 500;
   text-align: right;
-  }
-  .ContactUs-mobile .Section-2 h2,
-  .ContactUs-mobile .Section-2 h3,
-  .ContactUs-mobile .Section-2 h4,
-  .ContactUs-mobile .Section-2 span,
-  .ContactUs-mobile .Section-2 p,
-  .homePage .section2 h1,
-  .homePage .section4 h2,
-  .homePage .section4 p,
-  .homePage .section5 h2,
-  .homePage .section6 h2{
-    transform: translateY(100%);
+}
+.ContactUs-mobile .Section-2 h2,
+.ContactUs-mobile .Section-2 h3,
+.ContactUs-mobile .Section-2 h4,
+.ContactUs-mobile .Section-2 span,
+.ContactUs-mobile .Section-2 p,
+.homePage .section2 h1,
+.homePage .section4 h2,
+.homePage .section4 p,
+.homePage .section5 h2,
+.homePage .section6 h2 {
+  transform: translateY(100%);
   transition: all 700ms ease;
   opacity: 0;
-  }
-  header,footer,.SearchBox-popup {
-    direction: rtl !important;
-  }
-  .ResultSearch .ItemR[hidden='true']{
+}
+header,
+footer,
+.SearchBox-popup {
+  direction: rtl !important;
+}
+.ResultSearch .ItemR[hidden="true"] {
   display: none;
-  }
-  .ResultSearch .ItemR[open='true']{
-    display: flex;
-    }
-    .ResultSearch .ItemR{
-      display: none;
-    }
-  .loaded .Nores[hidden=""]{
-      display: none;
-  }
-  .loaded .Nores[hidden='false']{
-       display: flex;
-     }
-  mark {background: #194a9652 !important}
-  
-  .pagination1 {
-    width: auto;
-  }
- .homePage .section2 .para p,
- .homePage .section4 .para p{
-font-size: 14px;
-font-weight: 400;
-line-height: 21.91px;
-color: #000000;
-font-family: "IRANSansWeb400";
-text-align: justify;
-  }
+}
+.ResultSearch .ItemR[open="true"] {
+  display: flex;
+}
+.ResultSearch .ItemR {
+  display: none;
+}
+.loaded .Nores[hidden=""] {
+  display: none;
+}
+.loaded .Nores[hidden="false"] {
+  display: flex;
+}
+mark {
+  background: #194a9652 !important;
+}
 
-  .Etelaei-C section .Text p{
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 25.02px;
-    color: #000000;
-    font-family: "IRANSansWeb300";
-    text-align: justify;
-  }
-  .Etelaei-C section h2,
-  .Etelaei-C section h3{
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21.91px;
-    color: #000000;
-    font-family: "IRANSansWeb400";
-    text-align: justify;
-  }
+.pagination1 {
+  width: auto;
+}
+.homePage .section2 .para p,
+.homePage .section4 .para p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.91px;
+  color: #000000;
+  font-family: "IRANSansWeb400";
+  text-align: justify;
+}
 
-  main.posterList .listcontents{
-    position: relative;
-  }
-  main.posterList .listcontents .bg{
-    background: url('../images/bg (2).png');
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    width: 100%;
-    height: 300px;
-    background-size: cover;
-    transform: translateY(-39%);
-  }
- .AboutUs-mobile .inVideo {
+.Etelaei-C section .Text p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25.02px;
+  color: #000000;
+  font-family: "IRANSansWeb300";
+  text-align: justify;
+}
+.Etelaei-C section h2,
+.Etelaei-C section h3 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.91px;
+  color: #000000;
+  font-family: "IRANSansWeb400";
+  text-align: justify;
+}
+
+main.posterList .listcontents {
   position: relative;
 }
-  
+main.posterList .listcontents .bg {
+  background: url("../images/bg (2).png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  transform: translateY(-39%);
+}
+.AboutUs-mobile .inVideo {
+  position: relative;
+}
 
-
-  
 .posterShow .readMoreBtn {
   font-family: "IRANSansWeb300";
   font-size: 12px;
@@ -813,9 +824,6 @@ text-align: justify;
   color: #194a96;
   padding-right: 5%;
 }
-
-
-
 
 .timeline-item__line {
   position: absolute;
@@ -846,7 +854,7 @@ text-align: justify;
   border: 1px solid #195549;
   border-radius: 50%;
   transform: translate(calc(50% - 2px), -10px);
-    background: #fff;
+  background: #fff;
   z-index: 1;
 }
 /* .timeline-item__media-wrapper {
@@ -855,32 +863,28 @@ text-align: justify;
 .timeline-item__content-wrapper{
   width: 50%;
 } */
-.timeline-item:last-of-type .timeline-item__line{
+.timeline-item:last-of-type .timeline-item__line {
   display: none;
 }
-
 
 .posterShow .leftSlider .swiper-slide-active .inVideo {
   filter: grayscale(0) !important;
   transform: scale(1) !important;
 }
 
-
-.posterShow .videoSliderpagination .swiper-pagination-bullet{
+.posterShow .videoSliderpagination .swiper-pagination-bullet {
   width: 7px;
   height: 7px;
   border-radius: 50%;
   opacity: 1;
   background-color: transparent;
-  border: 1px solid #002B43;
+  border: 1px solid #002b43;
   transition: 0.5s ease;
-  }
-  .posterShow .videoSliderpagination .swiper-pagination-bullet-active{
-  background-color: #002B43;
-  }
-  
+}
+.posterShow .videoSliderpagination .swiper-pagination-bullet-active {
+  background-color: #002b43;
+}
 
-  
 .posterShow .pagination1 i {
   font-family: "IRANSansWeb700";
   font-size: 16px;
@@ -900,17 +904,179 @@ text-align: justify;
   font-weight: 300;
   line-height: 21.91px;
 }
-.SearchBox-popup{
+.SearchBox-popup {
   min-height: 78px;
-background-color: #FFFFFFF2 !important;
+  background-color: #fffffff2 !important;
 }
 .SearchBox-popup .CloseSearch {
-right: 0;
-top:0;
+  right: 0;
+  top: 0;
 }
-.loaded{
+.loaded {
   max-height: 50vh;
 }
 .searchinnerIcon {
-pointer-events: none;
+  pointer-events: none;
+}
+.listcontents {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.posterLists {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.plyr {
+  position: relative;
+}
+.Banner-Container .IMG {
+  position: relative;
+}
+.Banner-Container .IMG::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(3, 3, 3, 0.219);
+}
+.AboutUs-C .section-2 .Text p {
+  text-align: justify;
+}
+
+.Map-Container {
+  overflow: hidden;
+}
+
+.lds-roller,
+.lds-roller div,
+.lds-roller div:after,
+.lds-roller2,
+.lds-roller2 div,
+.lds-roller2 div:after {
+  box-sizing: border-box;
+}
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 5em auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.lds-roller2 {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+.lds-roller div,
+.lds-roller2 div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.lds-roller div:after,
+.lds-roller2 div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7.2px;
+  height: 7.2px;
+  border-radius: 50%;
+  background: #194a96;
+  margin: -3.6px 0 0 -3.6px;
+}
+.lds-roller div:nth-child(1),
+.lds-roller2 div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after,
+.lds-roller2 div:nth-child(1):after {
+  top: 62.62742px;
+  left: 62.62742px;
+}
+.lds-roller div:nth-child(2),
+.lds-roller2 div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after,
+.lds-roller2 div:nth-child(2):after {
+  top: 67.71281px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3),
+.lds-roller2 div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after,
+.lds-roller2 div:nth-child(3):after {
+  top: 70.90963px;
+  left: 48.28221px;
+}
+.lds-roller div:nth-child(4),
+.lds-roller2 div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after,
+.lds-roller2 div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5),
+.lds-roller2 div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after,
+.lds-roller2 div:nth-child(5):after {
+  top: 70.90963px;
+  left: 31.71779px;
+}
+.lds-roller div:nth-child(6),
+.lds-roller2 div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after,
+.lds-roller2 div:nth-child(6):after {
+  top: 67.71281px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7),
+.lds-roller2 div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after,
+.lds-roller2 div:nth-child(7):after {
+  top: 62.62742px;
+  left: 17.37258px;
+}
+.lds-roller div:nth-child(8),
+.lds-roller2 div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after,
+.lds-roller2 div:nth-child(8):after {
+  top: 56px;
+  left: 12.28719px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

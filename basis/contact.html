@@ -17,11 +17,6 @@
    <basis core="call" file="styles-mobile.inc" />
     <link rel="stylesheet" href="[##cms.cms.cdn##]/css/leaflet.css">
 
-<style>
-    .Map-Container{
-        overflow: hidden;
-    }
-</style>
 </head>
 <body>
     <main class="ContactUs-mobile w-full overflow-hidden" dir="rtl">
@@ -45,17 +40,15 @@
             <div class="RightSec mt-[1em] w-full flex flex-col justify-start items-start">
                 <div class="Title-main mr-auto flex-col relative overflow-hidden w-[95%]
                 flex justify-start gap-4 items-start ">
-    
                   <span class="line duration-700 absolute flex left-0 my-auto top-0 bottom-0
                   justify-center  right-0  delay-100  w-[2px] h-0  bg-darkBlue "></span>
-    
-                
                   <h1 class="font-IRANSansWeb500 relative duration-700 translate-y-[100%] mr-[.5em]
                   font-medium text-lg leading-28.17 text-darkBlue">
                   فرم ارسال پیام
                   </h1>
-              
               </div>
+              <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
               <div class="Form-container flex-col  mx-auto w-[90%] flex">
                 <div class="text w-full flex justify-start">
                         <p class="w-full font-IRANSansWeb300 duration-700 translate-y-[100%] font-light text-sm leading-21.91 text-darkBlue  mt-[.5em]">
@@ -74,7 +67,7 @@
                 run="atclient" 
                 body="object_edit={##edit.object.value##}&captcha={##edit.object.captcha##}&captchaid={##edit.object.captchaid##}" 
                 content-type="application/x-www-form-urlencoded" triggers="edit.object" if="{##edit.object|(false)##}" 
-                OnProcessed="OnProcessesEditObjectFn"> 
+                OnProcessed="OnProcessesEditObjectFn" onRendered="renderEditobject"> 
                 </basis>
                 <basis core="dbsource" source="trust_login" run="atclient" name="captcha" triggers="refresh.captcha">
                     <member type="scalar" request="captcha" name="code" />
@@ -167,7 +160,7 @@
                                     @child
                                 </layout>
                                 <face filter="TypeID=241">
-                               <a href="tel:@Answer" class="duration-700 translate-y-[100%] font-IRANSansWeb500 font-medium text-sm leading-21.91 text-darkBlue">
+                               <a href="tel:@Answer"  rel="noopener" class="duration-700 translate-y-[100%] font-IRANSansWeb500 font-medium text-sm leading-21.91 text-darkBlue">
                                 @Answer
                                </a>
                                 </face>
@@ -184,7 +177,7 @@
                                     @child
                                 </layout>
                                 <face filter="TypeID=240">
-                               <a href="tel:@Answer" class="duration-700 justify-start items-start translate-y-[100%] font-IRANSansWeb500 font-medium text-sm leading-21.91 text-darkBlue">
+                               <a href="tel:@Answer" rel="noopener" class="duration-700 justify-start items-start translate-y-[100%] font-IRANSansWeb500 font-medium text-sm leading-21.91 text-darkBlue">
                                 @Answer
                                </a>
                                 </face>
@@ -207,7 +200,7 @@
                                 </layout>
                 
                                 <face filter="RowNumber in (1,2)">
-                            <a href="https://www.instagram.com/@largetext" alt="ritailshow" title="ritailshow" class="font-IRANSansWeb500 justify-start items-start duration-700 translate-y-[100%] font-medium text-sm leading-21.91 text-darkBlue">
+                            <a href="https://www.instagram.com/@largetext" rel="noopener" alt="ritailshow" title="ritailshow" class="font-IRANSansWeb500 justify-start items-start duration-700 translate-y-[100%] font-medium text-sm leading-21.91 text-darkBlue">
                                 @largetext
 
                             </a>
@@ -227,7 +220,7 @@
                                 </layout>
                 
                                 <face filter="RowNumber in (3)">
-                            <a href="https://www.linkedin.com/@largetext"  alt="ritailshow" title="ritailshow" class="font-IRANSansWeb500 justify-start items-start duration-700 translate-y-[100%] font-medium text-sm leading-21.91 text-darkBlue">
+                            <a href="https://www.linkedin.com/@largetext" rel="noopener"  alt="ritailshow" title="ritailshow" class="font-IRANSansWeb500 justify-start items-start duration-700 translate-y-[100%] font-medium text-sm leading-21.91 text-darkBlue">
                                 @largetext
                             </a>
                                 </face>
@@ -269,7 +262,7 @@
              </div>
          </section>
          <section class="Section-3 w-full flex py-[1em]"> 
-            <img src="images/وکتور-نمایشگاه-x 4.png" alt="" class="w-full object-cover">
+            <img src="[##cms.cms.cdn##]/images/وکتور-نمایشگاه-x 4.png" alt="نمایشگاه" class="w-full object-cover">
          </section>
        </div>
        <basis core="call" file="footer.inc" pageindex="[##cms.cms.pageindex##]" />
@@ -286,6 +279,8 @@
       
     </div>
     </main>
+    <div class="lds-roller2"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
     <basis core="call" file="script-mobile.inc" />
     <script src="[##cms.cms.cdn##]/_js/leaflet.js"></script>
     <script src="[##cms.cms.cdn##]/js/headerMobile-Dark.js"></script>
